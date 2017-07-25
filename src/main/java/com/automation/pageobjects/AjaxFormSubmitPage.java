@@ -65,6 +65,7 @@ public class AjaxFormSubmitPage extends TestBase{
 			logger.log(LogStatus.FAIL, "Form didn't submited");
 			
 			
+			
 		}*/
 	}
 
