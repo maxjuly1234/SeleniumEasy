@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="1" preserve-order="true">
+  <test name="Test" preserve-order="true">
+	<!-- <packages>
+	<package name="com.automation.base"/>
+	<package name="com.automation.pageobjects"/>
+	<package name="com.automation.testcases"/>
+	</packages> -->
+    <classes>
+      <class name="com.automation.testcases.AjaxFormSubmitPageTest"/>
+      <class name="com.automation.testcases.BootstrapAlertsPageTest"/>
+      <class name="com.automation.testcases.BootstrapDatePickerPageTest"/>
+      <!-- <class name="com.automation.testcases.InitAndDestroy"/> -->
+      <class name="com.automation.testcases.InputFormSubmitPageTest"/>
+      <class name="com.automation.testcases.JavaScriptAlertPageTest"/>
+      <class name="com.automation.testcases.JQueryDatePickerPageTest"/>
+      <class name="com.automation.testcases.MultipleSelectDropdownListPageTest"/>
+      <class name="com.automation.testcases.MultiSelectCheckBoxPageTest"/>
+      <class name="com.automation.testcases.Selenium_Easy_JQuery_DropDownTest"/>
+      <class name="com.automation.testcases.SimpleFormDemoPageTest"/>
+      <class name="com.automation.testcases.SingleCheckBoxPageTest"/>
+      <class name="com.automation.testcases.SingleSelectDropdownListPageTest"/>
+      <class name="com.automation.testcases.TableDataSearchPageTest"/>
+      <class name="com.automation.testcases.RadioButtonsDemoPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

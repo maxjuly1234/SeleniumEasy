@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="1" preserve-order="true">
+  <test name="Test">
+	<!-- <packages>
+	<package name="com.automation.base"/>
+	<package name="com.automation.pageobjects"/>
+	<package name="com.automation.testcases"/>
+	</packages> -->
+    <classes>
+      <class name="com.automation.testcases.InitAndDestroy"/>
+      <class name="com.automation.testcases.SingleSelectDropdownList"/>
+      <class name="com.automation.testcases.MultipleSelectDropdownList"/>
+      <class name="com.automation.testcases.SingleCheckBox"/>
+      <class name="com.automation.testcases.BootstrapAlerts"/>
+      <class name="com.automation.testcases.JavaScriptAlerts"/>
+      <class name="com.automation.testcases.MultiSelectCheckBox"/>
+      <class name="com.automation.testcases.InputForms"/>
+      <class name="com.automation.testcases.SingleCheckBox"/> 
+      <class name="com.automation.testcases.TableDataSearchPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

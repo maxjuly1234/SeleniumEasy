@@ -1,0 +1,1337 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>D:\Aldu\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">41 methods,   41 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.automation.testcases.Selenium_Easy_JQuery_DropDownTest" hash-for-method="DropDownWithTerritoryEnabled">DropDownWithTerritoryEnabled</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.automation.testcases.Selenium_Easy_JQuery_DropDownTest" hash-for-method="MultiSelectStates">MultiSelectStates</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.automation.testcases.SingleSelectDropdownListPageTest" hash-for-method="SelectDay">SelectDay</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.automation.testcases.Selenium_Easy_JQuery_DropDownTest" hash-for-method="ValidateJQuerySelectDropdownPage">ValidateJQuerySelectDropdownPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.automation.testcases.Selenium_Easy_JQuery_DropDownTest" hash-for-method="VerifyDropdownWithCategoryRelatedOptions">VerifyDropdownWithCategoryRelatedOptions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.automation.testcases.Selenium_Easy_JQuery_DropDownTest" hash-for-method="VerifySearchAndSelectCountry">VerifySearchAndSelectCountry</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.automation.testcases.Selenium_Easy_JQuery_DropDownTest" hash-for-method="VerifyTerritoryDisabled">VerifyTerritoryDisabled</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.automation.testcases.BootstrapDatePickerPageTest" hash-for-method="VerifyTodaysDate">VerifyTodaysDate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.automation.testcases.JavaScriptAlertPageTest" hash-for-method="acceptAlertMessage">acceptAlertMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.automation.testcases.SingleCheckBoxPageTest" hash-for-method="checkSingleSelectCheckbox">checkSingleSelectCheckbox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.automation.testcases.InputFormSubmitPageTest" hash-for-method="enterInputFormDetails(firstName1, 10/12/16, 1email@email.com, 9008001242, #163, FirstFlr, Doddanekundi, Bangalore, Califor...)">enterInputFormDetails(firstName1, 10/12/16, 1email@email.com, 9008001242, #163, FirstFlr, Doddanekundi, Bangalore, Califor...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.automation.testcases.InputFormSubmitPageTest" hash-for-method="enterInputFormDetails(firstName2, lastName2, 1email@email.com, (900)800-1243, #163, FirstFlr, Doddanekundi, Bangalore, Del...)">enterInputFormDetails(firstName2, lastName2, 1email@email.com, (900)800-1243, #163, FirstFlr, Doddanekundi, Bangalore, Del...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.automation.testcases.JavaScriptAlertPageTest" hash-for-method="getAlertMessage">getAlertMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.automation.testcases.MultipleSelectDropdownListPageTest" hash-for-method="getAllOptionsInlistBox">getAllOptionsInlistBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.automation.testcases.MultipleSelectDropdownListPageTest" hash-for-method="getAllSelectedOptions">getAllSelectedOptions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.automation.testcases.MultipleSelectDropdownListPageTest" hash-for-method="selectMultipleOption">selectMultipleOption</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.automation.testcases.RadioButtonsDemoPageTest" hash-for-method="validateGroupRadioBtnSelection">validateGroupRadioBtnSelection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.automation.testcases.RadioButtonsDemoPageTest" hash-for-method="validateRadioButtonsDemoPage">validateRadioButtonsDemoPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.automation.testcases.SimpleFormDemoPageTest" hash-for-method="validateSimpleInputFormPage">validateSimpleInputFormPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.automation.testcases.SimpleFormDemoPageTest" hash-for-method="validateSingleInputField">validateSingleInputField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.automation.testcases.RadioButtonsDemoPageTest" hash-for-method="validateSingleRadioBtnSelection">validateSingleRadioBtnSelection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.automation.testcases.SimpleFormDemoPageTest" hash-for-method="validateTwoInputField">validateTwoInputField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.automation.testcases.InputFormSubmitPageTest" hash-for-method="validatingFieldsData">validatingFieldsData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.automation.testcases.AjaxFormSubmitPageTest" hash-for-method="validatingFieldsData">validatingFieldsData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.automation.testcases.MultiSelectCheckBoxPageTest" hash-for-method="verifyAllOptionSelect">verifyAllOptionSelect</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.automation.testcases.MultiSelectCheckBoxPageTest" hash-for-method="verifyBUttonLabelAfterDeselectOneOption">verifyBUttonLabelAfterDeselectOneOption</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.automation.testcases.BootstrapAlertsPageTest" hash-for-method="verifyBootstrapAlerts">verifyBootstrapAlerts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.automation.testcases.BootstrapDatePickerPageTest" hash-for-method="verifyBootstrapCalendar">verifyBootstrapCalendar</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.automation.testcases.MultiSelectCheckBoxPageTest" hash-for-method="verifyButtonLabel">verifyButtonLabel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.automation.testcases.MultiSelectCheckBoxPageTest" hash-for-method="verifyCheckAllButtonCLick">verifyCheckAllButtonCLick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.automation.testcases.SingleCheckBoxPageTest" hash-for-method="verifyCheckboxPage">verifyCheckboxPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.automation.testcases.BootstrapDatePickerPageTest" hash-for-method="verifyDateCleared">verifyDateCleared</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.automation.testcases.BootstrapDatePickerPageTest" hash-for-method="verifyDaysOfWeekIsDisabled">verifyDaysOfWeekIsDisabled</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.automation.testcases.JQueryDatePickerPageTest" hash-for-method="verifyJQueryCalendar">verifyJQueryCalendar</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.automation.testcases.JQueryDatePickerPageTest" hash-for-method="verifyJQueryCalendarStartAndEndDates">verifyJQueryCalendarStartAndEndDates</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.automation.testcases.JavaScriptAlertPageTest" hash-for-method="verifyJavascriptAlertPage">verifyJavascriptAlertPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.automation.testcases.SingleSelectDropdownListPageTest" hash-for-method="verifySelectDropdownListDemoPage">verifySelectDropdownListDemoPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.automation.testcases.BootstrapDatePickerPageTest" hash-for-method="verifyStartingWeek">verifyStartingWeek</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.automation.testcases.SingleSelectDropdownListPageTest" hash-for-method="verifySuccessMessage">verifySuccessMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.automation.testcases.SingleCheckBoxPageTest" hash-for-method="verifySucessMessage">verifySucessMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.automation.testcases.TableDataSearchPageTest" hash-for-method="verifyTableDataSearchPage">verifyTableDataSearchPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automation.testcases.SingleCheckBoxPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSingleSelectCheckbox">
+                  </a> <!-- checkSingleSelectCheckbox -->
+                  <span class="method-name">checkSingleSelectCheckbox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCheckboxPage">
+                  </a> <!-- verifyCheckboxPage -->
+                  <span class="method-name">verifyCheckboxPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySucessMessage">
+                  </a> <!-- verifySucessMessage -->
+                  <span class="method-name">verifySucessMessage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automation.testcases.BootstrapAlertsPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBootstrapAlerts">
+                  </a> <!-- verifyBootstrapAlerts -->
+                  <span class="method-name">verifyBootstrapAlerts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automation.testcases.InputFormSubmitPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterInputFormDetails(firstName1, 10/12/16, 1email@email.com, 9008001242, #163, FirstFlr, Doddanekundi, Bangalore, Califor...)">
+                  </a> <!-- enterInputFormDetails(firstName1, 10/12/16, 1email@email.com, 9008001242, #163, FirstFlr, Doddanekundi, Bangalore, Califor...) -->
+                  <span class="method-name">enterInputFormDetails</span>
+                  <span class="parameters">(firstName1, 10/12/16, 1email@email.com, 9008001242, #163, FirstFlr, Doddanekundi, Bangalore, California, 12345, This is Project Description1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterInputFormDetails(firstName2, lastName2, 1email@email.com, (900)800-1243, #163, FirstFlr, Doddanekundi, Bangalore, Del...)">
+                  </a> <!-- enterInputFormDetails(firstName2, lastName2, 1email@email.com, (900)800-1243, #163, FirstFlr, Doddanekundi, Bangalore, Del...) -->
+                  <span class="method-name">enterInputFormDetails</span>
+                  <span class="parameters">(firstName2, lastName2, 1email@email.com, (900)800-1243, #163, FirstFlr, Doddanekundi, Bangalore, Delaware, 12346, This is Project Description2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatingFieldsData">
+                  </a> <!-- validatingFieldsData -->
+                  <span class="method-name">validatingFieldsData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automation.testcases.MultipleSelectDropdownListPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getAllOptionsInlistBox">
+                  </a> <!-- getAllOptionsInlistBox -->
+                  <span class="method-name">getAllOptionsInlistBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getAllSelectedOptions">
+                  </a> <!-- getAllSelectedOptions -->
+                  <span class="method-name">getAllSelectedOptions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectMultipleOption">
+                  </a> <!-- selectMultipleOption -->
+                  <span class="method-name">selectMultipleOption</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automation.testcases.JQueryDatePickerPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyJQueryCalendar">
+                  </a> <!-- verifyJQueryCalendar -->
+                  <span class="method-name">verifyJQueryCalendar</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyJQueryCalendarStartAndEndDates">
+                  </a> <!-- verifyJQueryCalendarStartAndEndDates -->
+                  <span class="method-name">verifyJQueryCalendarStartAndEndDates</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automation.testcases.BootstrapDatePickerPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyTodaysDate">
+                  </a> <!-- VerifyTodaysDate -->
+                  <span class="method-name">VerifyTodaysDate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBootstrapCalendar">
+                  </a> <!-- verifyBootstrapCalendar -->
+                  <span class="method-name">verifyBootstrapCalendar</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDateCleared">
+                  </a> <!-- verifyDateCleared -->
+                  <span class="method-name">verifyDateCleared</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDaysOfWeekIsDisabled">
+                  </a> <!-- verifyDaysOfWeekIsDisabled -->
+                  <span class="method-name">verifyDaysOfWeekIsDisabled</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyStartingWeek">
+                  </a> <!-- verifyStartingWeek -->
+                  <span class="method-name">verifyStartingWeek</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automation.testcases.Selenium_Easy_JQuery_DropDownTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DropDownWithTerritoryEnabled">
+                  </a> <!-- DropDownWithTerritoryEnabled -->
+                  <span class="method-name">DropDownWithTerritoryEnabled</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MultiSelectStates">
+                  </a> <!-- MultiSelectStates -->
+                  <span class="method-name">MultiSelectStates</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateJQuerySelectDropdownPage">
+                  </a> <!-- ValidateJQuerySelectDropdownPage -->
+                  <span class="method-name">ValidateJQuerySelectDropdownPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyDropdownWithCategoryRelatedOptions">
+                  </a> <!-- VerifyDropdownWithCategoryRelatedOptions -->
+                  <span class="method-name">VerifyDropdownWithCategoryRelatedOptions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifySearchAndSelectCountry">
+                  </a> <!-- VerifySearchAndSelectCountry -->
+                  <span class="method-name">VerifySearchAndSelectCountry</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyTerritoryDisabled">
+                  </a> <!-- VerifyTerritoryDisabled -->
+                  <span class="method-name">VerifyTerritoryDisabled</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automation.testcases.SimpleFormDemoPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateSimpleInputFormPage">
+                  </a> <!-- validateSimpleInputFormPage -->
+                  <span class="method-name">validateSimpleInputFormPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateSingleInputField">
+                  </a> <!-- validateSingleInputField -->
+                  <span class="method-name">validateSingleInputField</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateTwoInputField">
+                  </a> <!-- validateTwoInputField -->
+                  <span class="method-name">validateTwoInputField</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automation.testcases.SingleSelectDropdownListPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SelectDay">
+                  </a> <!-- SelectDay -->
+                  <span class="method-name">SelectDay</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySelectDropdownListDemoPage">
+                  </a> <!-- verifySelectDropdownListDemoPage -->
+                  <span class="method-name">verifySelectDropdownListDemoPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySuccessMessage">
+                  </a> <!-- verifySuccessMessage -->
+                  <span class="method-name">verifySuccessMessage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automation.testcases.AjaxFormSubmitPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatingFieldsData">
+                  </a> <!-- validatingFieldsData -->
+                  <span class="method-name">validatingFieldsData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automation.testcases.RadioButtonsDemoPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateGroupRadioBtnSelection">
+                  </a> <!-- validateGroupRadioBtnSelection -->
+                  <span class="method-name">validateGroupRadioBtnSelection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateRadioButtonsDemoPage">
+                  </a> <!-- validateRadioButtonsDemoPage -->
+                  <span class="method-name">validateRadioButtonsDemoPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateSingleRadioBtnSelection">
+                  </a> <!-- validateSingleRadioBtnSelection -->
+                  <span class="method-name">validateSingleRadioBtnSelection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automation.testcases.JavaScriptAlertPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="acceptAlertMessage">
+                  </a> <!-- acceptAlertMessage -->
+                  <span class="method-name">acceptAlertMessage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getAlertMessage">
+                  </a> <!-- getAlertMessage -->
+                  <span class="method-name">getAlertMessage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyJavascriptAlertPage">
+                  </a> <!-- verifyJavascriptAlertPage -->
+                  <span class="method-name">verifyJavascriptAlertPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automation.testcases.TableDataSearchPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTableDataSearchPage">
+                  </a> <!-- verifyTableDataSearchPage -->
+                  <span class="method-name">verifyTableDataSearchPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automation.testcases.MultiSelectCheckBoxPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAllOptionSelect">
+                  </a> <!-- verifyAllOptionSelect -->
+                  <span class="method-name">verifyAllOptionSelect</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBUttonLabelAfterDeselectOneOption">
+                  </a> <!-- verifyBUttonLabelAfterDeselectOneOption -->
+                  <span class="method-name">verifyBUttonLabelAfterDeselectOneOption</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyButtonLabel">
+                  </a> <!-- verifyButtonLabel -->
+                  <span class="method-name">verifyButtonLabel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCheckAllButtonCLick">
+                  </a> <!-- verifyCheckAllButtonCLick -->
+                  <span class="method-name">verifyCheckAllButtonCLick</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Aldu\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;test name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.automation.testcases.AjaxFormSubmitPageTest&quot;/&gt;
+      &lt;class name=&quot;com.automation.testcases.BootstrapAlertsPageTest&quot;/&gt;
+      &lt;class name=&quot;com.automation.testcases.BootstrapDatePickerPageTest&quot;/&gt;
+      &lt;class name=&quot;com.automation.testcases.InputFormSubmitPageTest&quot;/&gt;
+      &lt;class name=&quot;com.automation.testcases.JavaScriptAlertPageTest&quot;/&gt;
+      &lt;class name=&quot;com.automation.testcases.JQueryDatePickerPageTest&quot;/&gt;
+      &lt;class name=&quot;com.automation.testcases.MultipleSelectDropdownListPageTest&quot;/&gt;
+      &lt;class name=&quot;com.automation.testcases.MultiSelectCheckBoxPageTest&quot;/&gt;
+      &lt;class name=&quot;com.automation.testcases.Selenium_Easy_JQuery_DropDownTest&quot;/&gt;
+      &lt;class name=&quot;com.automation.testcases.SimpleFormDemoPageTest&quot;/&gt;
+      &lt;class name=&quot;com.automation.testcases.SingleCheckBoxPageTest&quot;/&gt;
+      &lt;class name=&quot;com.automation.testcases.SingleSelectDropdownListPageTest&quot;/&gt;
+      &lt;class name=&quot;com.automation.testcases.TableDataSearchPageTest&quot;/&gt;
+      &lt;class name=&quot;com.automation.testcases.RadioButtonsDemoPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (14 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(41);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyAllOptionSelect')
+data.setCell(0, 2, 'com.automation.testcases.MultiSelectCheckBoxPageTest')
+data.setCell(0, 3, 26176);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'VerifyDropdownWithCategoryRelatedOptions')
+data.setCell(1, 2, 'com.automation.testcases.Selenium_Easy_JQuery_DropDownTest')
+data.setCell(1, 3, 18568);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyTableDataSearchPage')
+data.setCell(2, 2, 'com.automation.testcases.TableDataSearchPageTest')
+data.setCell(2, 3, 16655);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'selectMultipleOption')
+data.setCell(3, 2, 'com.automation.testcases.MultipleSelectDropdownListPageTest')
+data.setCell(3, 3, 13657);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'getAllSelectedOptions')
+data.setCell(4, 2, 'com.automation.testcases.MultipleSelectDropdownListPageTest')
+data.setCell(4, 3, 12259);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyBootstrapAlerts')
+data.setCell(5, 2, 'com.automation.testcases.BootstrapAlertsPageTest')
+data.setCell(5, 3, 10946);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'acceptAlertMessage')
+data.setCell(6, 2, 'com.automation.testcases.JavaScriptAlertPageTest')
+data.setCell(6, 3, 10736);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'validatingFieldsData')
+data.setCell(7, 2, 'com.automation.testcases.AjaxFormSubmitPageTest')
+data.setCell(7, 3, 8815);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'validateSingleInputField')
+data.setCell(8, 2, 'com.automation.testcases.SimpleFormDemoPageTest')
+data.setCell(8, 3, 8402);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'validateSingleRadioBtnSelection')
+data.setCell(9, 2, 'com.automation.testcases.RadioButtonsDemoPageTest')
+data.setCell(9, 3, 7133);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'getAlertMessage')
+data.setCell(10, 2, 'com.automation.testcases.JavaScriptAlertPageTest')
+data.setCell(10, 3, 5721);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'validateTwoInputField')
+data.setCell(11, 2, 'com.automation.testcases.SimpleFormDemoPageTest')
+data.setCell(11, 3, 5590);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'validateGroupRadioBtnSelection')
+data.setCell(12, 2, 'com.automation.testcases.RadioButtonsDemoPageTest')
+data.setCell(12, 3, 5373);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'validatingFieldsData')
+data.setCell(13, 2, 'com.automation.testcases.InputFormSubmitPageTest')
+data.setCell(13, 3, 5227);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'enterInputFormDetails')
+data.setCell(14, 2, 'com.automation.testcases.InputFormSubmitPageTest')
+data.setCell(14, 3, 5163);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'enterInputFormDetails')
+data.setCell(15, 2, 'com.automation.testcases.InputFormSubmitPageTest')
+data.setCell(15, 3, 4117);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifyJQueryCalendarStartAndEndDates')
+data.setCell(16, 2, 'com.automation.testcases.JQueryDatePickerPageTest')
+data.setCell(16, 3, 3693);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verifyJQueryCalendar')
+data.setCell(17, 2, 'com.automation.testcases.JQueryDatePickerPageTest')
+data.setCell(17, 3, 3012);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'verifySuccessMessage')
+data.setCell(18, 2, 'com.automation.testcases.SingleSelectDropdownListPageTest')
+data.setCell(18, 3, 2193);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'VerifyTodaysDate')
+data.setCell(19, 2, 'com.automation.testcases.BootstrapDatePickerPageTest')
+data.setCell(19, 3, 1474);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'verifyDateCleared')
+data.setCell(20, 2, 'com.automation.testcases.BootstrapDatePickerPageTest')
+data.setCell(20, 3, 1421);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'verifyDaysOfWeekIsDisabled')
+data.setCell(21, 2, 'com.automation.testcases.BootstrapDatePickerPageTest')
+data.setCell(21, 3, 1404);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'DropDownWithTerritoryEnabled')
+data.setCell(22, 2, 'com.automation.testcases.Selenium_Easy_JQuery_DropDownTest')
+data.setCell(22, 3, 1374);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'verifyStartingWeek')
+data.setCell(23, 2, 'com.automation.testcases.BootstrapDatePickerPageTest')
+data.setCell(23, 3, 1250);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'verifySucessMessage')
+data.setCell(24, 2, 'com.automation.testcases.SingleCheckBoxPageTest')
+data.setCell(24, 3, 1155);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'VerifySearchAndSelectCountry')
+data.setCell(25, 2, 'com.automation.testcases.Selenium_Easy_JQuery_DropDownTest')
+data.setCell(25, 3, 969);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'MultiSelectStates')
+data.setCell(26, 2, 'com.automation.testcases.Selenium_Easy_JQuery_DropDownTest')
+data.setCell(26, 3, 921);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'getAllOptionsInlistBox')
+data.setCell(27, 2, 'com.automation.testcases.MultipleSelectDropdownListPageTest')
+data.setCell(27, 3, 921);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'verifyBootstrapCalendar')
+data.setCell(28, 2, 'com.automation.testcases.BootstrapDatePickerPageTest')
+data.setCell(28, 3, 921);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'verifyCheckAllButtonCLick')
+data.setCell(29, 2, 'com.automation.testcases.MultiSelectCheckBoxPageTest')
+data.setCell(29, 3, 890);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'verifyJavascriptAlertPage')
+data.setCell(30, 2, 'com.automation.testcases.JavaScriptAlertPageTest')
+data.setCell(30, 3, 796);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'VerifyTerritoryDisabled')
+data.setCell(31, 2, 'com.automation.testcases.Selenium_Easy_JQuery_DropDownTest')
+data.setCell(31, 3, 781);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'verifyBUttonLabelAfterDeselectOneOption')
+data.setCell(32, 2, 'com.automation.testcases.MultiSelectCheckBoxPageTest')
+data.setCell(32, 3, 781);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'SelectDay')
+data.setCell(33, 2, 'com.automation.testcases.SingleSelectDropdownListPageTest')
+data.setCell(33, 3, 780);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'validateSimpleInputFormPage')
+data.setCell(34, 2, 'com.automation.testcases.SimpleFormDemoPageTest')
+data.setCell(34, 3, 766);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'validateRadioButtonsDemoPage')
+data.setCell(35, 2, 'com.automation.testcases.RadioButtonsDemoPageTest')
+data.setCell(35, 3, 640);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'ValidateJQuerySelectDropdownPage')
+data.setCell(36, 2, 'com.automation.testcases.Selenium_Easy_JQuery_DropDownTest')
+data.setCell(36, 3, 625);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'checkSingleSelectCheckbox')
+data.setCell(37, 2, 'com.automation.testcases.SingleCheckBoxPageTest')
+data.setCell(37, 3, 608);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'verifyCheckboxPage')
+data.setCell(38, 2, 'com.automation.testcases.SingleCheckBoxPageTest')
+data.setCell(38, 3, 594);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'verifyButtonLabel')
+data.setCell(39, 2, 'com.automation.testcases.MultiSelectCheckBoxPageTest')
+data.setCell(39, 3, 562);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'verifySelectDropdownListDemoPage')
+data.setCell(40, 2, 'com.automation.testcases.SingleSelectDropdownListPageTest')
+data.setCell(40, 3, 500);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">18 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.automation.testcases.BootstrapAlertsPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">before</span>
+                <br/>
+                <span class="ignored-method-name">after</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.automation.testcases.InputFormSubmitPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">before</span>
+                <br/>
+                <span class="ignored-method-name">after</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.automation.testcases.MultipleSelectDropdownListPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">before</span>
+                <br/>
+                <span class="ignored-method-name">after</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.automation.testcases.RadioButtonsDemoPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">before</span>
+                <br/>
+                <span class="ignored-method-name">after</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.automation.testcases.JQueryDatePickerPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">before</span>
+                <br/>
+                <span class="ignored-method-name">after</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.automation.testcases.BootstrapDatePickerPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">before</span>
+                <br/>
+                <span class="ignored-method-name">after</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.automation.testcases.JavaScriptAlertPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">before</span>
+                <br/>
+                <span class="ignored-method-name">after</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.automation.testcases.Selenium_Easy_JQuery_DropDownTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">before</span>
+                <br/>
+                <span class="ignored-method-name">after</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.automation.testcases.SingleSelectDropdownListPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">before</span>
+                <br/>
+                <span class="ignored-method-name">after</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.testcases.AjaxFormSubmitPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">before</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.testcases.InputFormSubmitPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">init</span>
+                <span class="method-start">18569 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.testcases.AjaxFormSubmitPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validatingFieldsData</span>
+                <span class="method-start">19631 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.testcases.BootstrapAlertsPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyBootstrapAlerts</span>
+                <span class="method-start">28446 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.testcases.BootstrapDatePickerPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">VerifyTodaysDate</span>
+                <span class="method-start">39392 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyBootstrapCalendar</span>
+                <span class="method-start">40866 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyDateCleared</span>
+                <span class="method-start">41787 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyDaysOfWeekIsDisabled</span>
+                <span class="method-start">43208 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyStartingWeek</span>
+                <span class="method-start">44612 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.testcases.InputFormSubmitPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">enterInputFormDetails(firstName1, 10/12/16, 1email@email.com, 9008001242, #163, FirstFlr, Doddanekundi, Bangalore, Califor...)</span>
+                <span class="method-start">49465 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">enterInputFormDetails(firstName2, lastName2, 1email@email.com, (900)800-1243, #163, FirstFlr, Doddanekundi, Bangalore, Del...)</span>
+                <span class="method-start">54628 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validatingFieldsData</span>
+                <span class="method-start">58761 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.testcases.JavaScriptAlertPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyJavascriptAlertPage</span>
+                <span class="method-start">63988 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.testcases.JQueryDatePickerPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyJQueryCalendar</span>
+                <span class="method-start">64784 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyJQueryCalendarStartAndEndDates</span>
+                <span class="method-start">67796 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.testcases.MultipleSelectDropdownListPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">selectMultipleOption</span>
+                <span class="method-start">71489 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.testcases.MultiSelectCheckBoxPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyCheckAllButtonCLick</span>
+                <span class="method-start">85146 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.testcases.Selenium_Easy_JQuery_DropDownTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">DropDownWithTerritoryEnabled</span>
+                <span class="method-start">86036 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">MultiSelectStates</span>
+                <span class="method-start">87410 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ValidateJQuerySelectDropdownPage</span>
+                <span class="method-start">88331 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyDropdownWithCategoryRelatedOptions</span>
+                <span class="method-start">88956 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifySearchAndSelectCountry</span>
+                <span class="method-start">107524 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyTerritoryDisabled</span>
+                <span class="method-start">108493 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.testcases.SingleCheckBoxPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkSingleSelectCheckbox</span>
+                <span class="method-start">109274 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.testcases.SingleSelectDropdownListPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifySelectDropdownListDemoPage</span>
+                <span class="method-start">109882 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.testcases.TableDataSearchPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyTableDataSearchPage</span>
+                <span class="method-start">110382 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.testcases.JavaScriptAlertPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getAlertMessage</span>
+                <span class="method-start">127037 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.testcases.MultipleSelectDropdownListPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getAllOptionsInlistBox</span>
+                <span class="method-start">132758 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.testcases.SimpleFormDemoPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateSimpleInputFormPage</span>
+                <span class="method-start">133679 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.testcases.RadioButtonsDemoPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateRadioButtonsDemoPage</span>
+                <span class="method-start">134445 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.testcases.MultiSelectCheckBoxPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyButtonLabel</span>
+                <span class="method-start">135085 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.testcases.SingleCheckBoxPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyCheckboxPage</span>
+                <span class="method-start">135647 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.testcases.SingleSelectDropdownListPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">SelectDay</span>
+                <span class="method-start">136241 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.testcases.JavaScriptAlertPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">acceptAlertMessage</span>
+                <span class="method-start">137021 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.testcases.MultipleSelectDropdownListPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getAllSelectedOptions</span>
+                <span class="method-start">147757 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.testcases.SimpleFormDemoPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateSingleInputField</span>
+                <span class="method-start">160016 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.testcases.RadioButtonsDemoPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateSingleRadioBtnSelection</span>
+                <span class="method-start">168418 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.testcases.MultiSelectCheckBoxPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyBUttonLabelAfterDeselectOneOption</span>
+                <span class="method-start">175551 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.testcases.SingleCheckBoxPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifySucessMessage</span>
+                <span class="method-start">176332 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.testcases.SingleSelectDropdownListPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifySuccessMessage</span>
+                <span class="method-start">177487 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.testcases.MultiSelectCheckBoxPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyAllOptionSelect</span>
+                <span class="method-start">179680 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.testcases.SimpleFormDemoPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateTwoInputField</span>
+                <span class="method-start">205856 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.testcases.RadioButtonsDemoPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateGroupRadioBtnSelection</span>
+                <span class="method-start">211446 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.testcases.AjaxFormSubmitPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">after</span>
+                <span class="method-start">216929 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

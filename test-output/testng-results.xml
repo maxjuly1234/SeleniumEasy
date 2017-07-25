@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="18" total="59" passed="41">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="198250" started-at="2017-07-24T18:26:46Z" finished-at="2017-07-24T18:30:05Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="198250" started-at="2017-07-24T18:26:46Z" finished-at="2017-07-24T18:30:05Z">
+      <class name="com.automation.testcases.InputFormSubmitPageTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.automation.testcases.InputFormSubmitPageTest@49993335]" name="init" is-config="true" duration-ms="1030" started-at="2017-07-24T23:56:46Z" finished-at="2017-07-24T23:56:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="enterInputFormDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.automation.testcases.InputFormSubmitPageTest@49993335]" name="enterInputFormDetails" duration-ms="5163" started-at="2017-07-24T23:57:17Z" data-provider="DataSupply" finished-at="2017-07-24T23:57:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstName1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10/12/16]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1email@email.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9008001242]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[#163, FirstFlr, Doddanekundi]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[California]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[This is Project Description1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterInputFormDetails -->
+        <test-method status="PASS" signature="enterInputFormDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.automation.testcases.InputFormSubmitPageTest@49993335]" name="enterInputFormDetails" duration-ms="4117" started-at="2017-07-24T23:57:22Z" data-provider="DataSupply" finished-at="2017-07-24T23:57:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstName2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lastName2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1email@email.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[(900)800-1243]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[#163, FirstFlr, Doddanekundi]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Delaware]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[12346]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[This is Project Description2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterInputFormDetails -->
+        <test-method status="PASS" signature="validatingFieldsData()[pri:0, instance:com.automation.testcases.InputFormSubmitPageTest@49993335]" name="validatingFieldsData" duration-ms="5227" started-at="2017-07-24T23:57:26Z" finished-at="2017-07-24T23:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingFieldsData -->
+      </class> <!-- com.automation.testcases.InputFormSubmitPageTest -->
+      <class name="com.automation.testcases.BootstrapDatePickerPageTest">
+        <test-method status="PASS" signature="VerifyTodaysDate()[pri:0, instance:com.automation.testcases.BootstrapDatePickerPageTest@192b07fd]" name="VerifyTodaysDate" duration-ms="1474" started-at="2017-07-24T23:57:07Z" finished-at="2017-07-24T23:57:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTodaysDate -->
+        <test-method status="PASS" signature="verifyBootstrapCalendar()[pri:0, instance:com.automation.testcases.BootstrapDatePickerPageTest@192b07fd]" name="verifyBootstrapCalendar" duration-ms="921" started-at="2017-07-24T23:57:09Z" finished-at="2017-07-24T23:57:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBootstrapCalendar -->
+        <test-method status="PASS" signature="verifyDateCleared()[pri:0, instance:com.automation.testcases.BootstrapDatePickerPageTest@192b07fd]" name="verifyDateCleared" duration-ms="1421" started-at="2017-07-24T23:57:10Z" finished-at="2017-07-24T23:57:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDateCleared -->
+        <test-method status="PASS" signature="verifyDaysOfWeekIsDisabled()[pri:0, instance:com.automation.testcases.BootstrapDatePickerPageTest@192b07fd]" name="verifyDaysOfWeekIsDisabled" duration-ms="1404" started-at="2017-07-24T23:57:11Z" finished-at="2017-07-24T23:57:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDaysOfWeekIsDisabled -->
+        <test-method status="PASS" signature="verifyStartingWeek()[pri:0, instance:com.automation.testcases.BootstrapDatePickerPageTest@192b07fd]" name="verifyStartingWeek" duration-ms="1250" started-at="2017-07-24T23:57:12Z" finished-at="2017-07-24T23:57:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStartingWeek -->
+      </class> <!-- com.automation.testcases.BootstrapDatePickerPageTest -->
+      <class name="com.automation.testcases.SimpleFormDemoPageTest">
+        <test-method status="PASS" signature="validateSimpleInputFormPage()[pri:1, instance:com.automation.testcases.SimpleFormDemoPageTest@10bdf5e5]" name="validateSimpleInputFormPage" duration-ms="766" started-at="2017-07-24T23:58:41Z" finished-at="2017-07-24T23:58:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSimpleInputFormPage -->
+        <test-method status="PASS" signature="validateSingleInputField()[pri:2, instance:com.automation.testcases.SimpleFormDemoPageTest@10bdf5e5]" name="validateSingleInputField" duration-ms="8402" started-at="2017-07-24T23:59:08Z" finished-at="2017-07-24T23:59:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSingleInputField -->
+        <test-method status="PASS" signature="validateTwoInputField()[pri:3, instance:com.automation.testcases.SimpleFormDemoPageTest@10bdf5e5]" name="validateTwoInputField" duration-ms="5590" started-at="2017-07-24T23:59:54Z" finished-at="2017-07-24T23:59:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTwoInputField -->
+      </class> <!-- com.automation.testcases.SimpleFormDemoPageTest -->
+      <class name="com.automation.testcases.SingleCheckBoxPageTest">
+        <test-method status="PASS" signature="checkSingleSelectCheckbox()[pri:0, instance:com.automation.testcases.SingleCheckBoxPageTest@6e1ec318]" name="checkSingleSelectCheckbox" duration-ms="608" started-at="2017-07-24T23:58:17Z" finished-at="2017-07-24T23:58:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSingleSelectCheckbox -->
+        <test-method status="PASS" signature="verifyCheckboxPage()[pri:1, instance:com.automation.testcases.SingleCheckBoxPageTest@6e1ec318]" name="verifyCheckboxPage" duration-ms="594" started-at="2017-07-24T23:58:43Z" finished-at="2017-07-24T23:58:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCheckboxPage -->
+        <test-method status="PASS" signature="verifySucessMessage()[pri:2, instance:com.automation.testcases.SingleCheckBoxPageTest@6e1ec318]" name="verifySucessMessage" duration-ms="1155" started-at="2017-07-24T23:59:24Z" finished-at="2017-07-24T23:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySucessMessage -->
+      </class> <!-- com.automation.testcases.SingleCheckBoxPageTest -->
+      <class name="com.automation.testcases.BootstrapAlertsPageTest">
+        <test-method status="PASS" signature="verifyBootstrapAlerts()[pri:0, instance:com.automation.testcases.BootstrapAlertsPageTest@20322d26]" name="verifyBootstrapAlerts" duration-ms="10946" started-at="2017-07-24T23:56:56Z" finished-at="2017-07-24T23:57:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBootstrapAlerts -->
+      </class> <!-- com.automation.testcases.BootstrapAlertsPageTest -->
+      <class name="com.automation.testcases.JQueryDatePickerPageTest">
+        <test-method status="PASS" signature="verifyJQueryCalendar()[pri:0, instance:com.automation.testcases.JQueryDatePickerPageTest@64bf3bbf]" name="verifyJQueryCalendar" duration-ms="3012" started-at="2017-07-24T23:57:33Z" finished-at="2017-07-24T23:57:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyJQueryCalendar -->
+        <test-method status="PASS" signature="verifyJQueryCalendarStartAndEndDates()[pri:0, instance:com.automation.testcases.JQueryDatePickerPageTest@64bf3bbf]" name="verifyJQueryCalendarStartAndEndDates" duration-ms="3693" started-at="2017-07-24T23:57:36Z" finished-at="2017-07-24T23:57:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyJQueryCalendarStartAndEndDates -->
+      </class> <!-- com.automation.testcases.JQueryDatePickerPageTest -->
+      <class name="com.automation.testcases.AjaxFormSubmitPageTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.automation.testcases.AjaxFormSubmitPageTest@5025a98f]" name="before" is-config="true" duration-ms="18569" started-at="2017-07-24T23:56:28Z" finished-at="2017-07-24T23:56:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="validatingFieldsData()[pri:0, instance:com.automation.testcases.AjaxFormSubmitPageTest@5025a98f]" name="validatingFieldsData" duration-ms="8815" started-at="2017-07-24T23:56:47Z" finished-at="2017-07-24T23:56:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingFieldsData -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.automation.testcases.AjaxFormSubmitPageTest@5025a98f]" name="after" is-config="true" duration-ms="1108" started-at="2017-07-25T00:00:05Z" finished-at="2017-07-25T00:00:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.automation.testcases.AjaxFormSubmitPageTest -->
+      <class name="com.automation.testcases.SingleSelectDropdownListPageTest">
+        <test-method status="PASS" signature="verifySelectDropdownListDemoPage()[pri:0, instance:com.automation.testcases.SingleSelectDropdownListPageTest@7e0b0338]" name="verifySelectDropdownListDemoPage" duration-ms="500" started-at="2017-07-24T23:58:18Z" finished-at="2017-07-24T23:58:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySelectDropdownListDemoPage -->
+        <test-method status="PASS" signature="SelectDay()[pri:1, instance:com.automation.testcases.SingleSelectDropdownListPageTest@7e0b0338]" name="SelectDay" duration-ms="780" started-at="2017-07-24T23:58:44Z" finished-at="2017-07-24T23:58:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectDay -->
+        <test-method status="PASS" signature="verifySuccessMessage()[pri:2, instance:com.automation.testcases.SingleSelectDropdownListPageTest@7e0b0338]" name="verifySuccessMessage" duration-ms="2193" started-at="2017-07-24T23:59:25Z" finished-at="2017-07-24T23:59:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySuccessMessage -->
+      </class> <!-- com.automation.testcases.SingleSelectDropdownListPageTest -->
+      <class name="com.automation.testcases.RadioButtonsDemoPageTest">
+        <test-method status="PASS" signature="validateRadioButtonsDemoPage()[pri:1, instance:com.automation.testcases.RadioButtonsDemoPageTest@1e127982]" name="validateRadioButtonsDemoPage" duration-ms="640" started-at="2017-07-24T23:58:42Z" finished-at="2017-07-24T23:58:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRadioButtonsDemoPage -->
+        <test-method status="PASS" signature="validateSingleRadioBtnSelection()[pri:2, instance:com.automation.testcases.RadioButtonsDemoPageTest@1e127982]" name="validateSingleRadioBtnSelection" duration-ms="7133" started-at="2017-07-24T23:59:16Z" finished-at="2017-07-24T23:59:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSingleRadioBtnSelection -->
+        <test-method status="PASS" signature="validateGroupRadioBtnSelection()[pri:3, instance:com.automation.testcases.RadioButtonsDemoPageTest@1e127982]" name="validateGroupRadioBtnSelection" duration-ms="5373" started-at="2017-07-24T23:59:59Z" finished-at="2017-07-25T00:00:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGroupRadioBtnSelection -->
+      </class> <!-- com.automation.testcases.RadioButtonsDemoPageTest -->
+      <class name="com.automation.testcases.JavaScriptAlertPageTest">
+        <test-method status="PASS" signature="verifyJavascriptAlertPage()[pri:0, instance:com.automation.testcases.JavaScriptAlertPageTest@64bfbc86]" name="verifyJavascriptAlertPage" duration-ms="796" started-at="2017-07-24T23:57:32Z" finished-at="2017-07-24T23:57:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyJavascriptAlertPage -->
+        <test-method status="PASS" signature="getAlertMessage()[pri:1, instance:com.automation.testcases.JavaScriptAlertPageTest@64bfbc86]" name="getAlertMessage" duration-ms="5721" started-at="2017-07-24T23:58:35Z" finished-at="2017-07-24T23:58:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAlertMessage -->
+        <test-method status="PASS" signature="acceptAlertMessage()[pri:2, instance:com.automation.testcases.JavaScriptAlertPageTest@64bfbc86]" name="acceptAlertMessage" duration-ms="10736" started-at="2017-07-24T23:58:45Z" finished-at="2017-07-24T23:58:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acceptAlertMessage -->
+      </class> <!-- com.automation.testcases.JavaScriptAlertPageTest -->
+      <class name="com.automation.testcases.TableDataSearchPageTest">
+        <test-method status="PASS" signature="verifyTableDataSearchPage()[pri:0, instance:com.automation.testcases.TableDataSearchPageTest@617faa95]" name="verifyTableDataSearchPage" duration-ms="16655" started-at="2017-07-24T23:58:18Z" finished-at="2017-07-24T23:58:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTableDataSearchPage -->
+      </class> <!-- com.automation.testcases.TableDataSearchPageTest -->
+      <class name="com.automation.testcases.Selenium_Easy_JQuery_DropDownTest">
+        <test-method status="PASS" signature="DropDownWithTerritoryEnabled()[pri:0, instance:com.automation.testcases.Selenium_Easy_JQuery_DropDownTest@dc24521]" name="DropDownWithTerritoryEnabled" duration-ms="1374" started-at="2017-07-24T23:57:54Z" finished-at="2017-07-24T23:57:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DropDownWithTerritoryEnabled -->
+        <test-method status="PASS" signature="MultiSelectStates()[pri:0, instance:com.automation.testcases.Selenium_Easy_JQuery_DropDownTest@dc24521]" name="MultiSelectStates" duration-ms="921" started-at="2017-07-24T23:57:55Z" finished-at="2017-07-24T23:57:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MultiSelectStates -->
+        <test-method status="PASS" signature="ValidateJQuerySelectDropdownPage()[pri:0, instance:com.automation.testcases.Selenium_Easy_JQuery_DropDownTest@dc24521]" name="ValidateJQuerySelectDropdownPage" duration-ms="625" started-at="2017-07-24T23:57:56Z" finished-at="2017-07-24T23:57:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateJQuerySelectDropdownPage -->
+        <test-method status="PASS" signature="VerifyDropdownWithCategoryRelatedOptions()[pri:0, instance:com.automation.testcases.Selenium_Easy_JQuery_DropDownTest@dc24521]" name="VerifyDropdownWithCategoryRelatedOptions" duration-ms="18568" started-at="2017-07-24T23:57:57Z" finished-at="2017-07-24T23:58:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDropdownWithCategoryRelatedOptions -->
+        <test-method status="PASS" signature="VerifySearchAndSelectCountry()[pri:0, instance:com.automation.testcases.Selenium_Easy_JQuery_DropDownTest@dc24521]" name="VerifySearchAndSelectCountry" duration-ms="969" started-at="2017-07-24T23:58:15Z" finished-at="2017-07-24T23:58:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySearchAndSelectCountry -->
+        <test-method status="PASS" signature="VerifyTerritoryDisabled()[pri:0, instance:com.automation.testcases.Selenium_Easy_JQuery_DropDownTest@dc24521]" name="VerifyTerritoryDisabled" duration-ms="781" started-at="2017-07-24T23:58:16Z" finished-at="2017-07-24T23:58:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTerritoryDisabled -->
+      </class> <!-- com.automation.testcases.Selenium_Easy_JQuery_DropDownTest -->
+      <class name="com.automation.testcases.MultiSelectCheckBoxPageTest">
+        <test-method status="PASS" signature="verifyCheckAllButtonCLick()[pri:0, instance:com.automation.testcases.MultiSelectCheckBoxPageTest@148080bb]" name="verifyCheckAllButtonCLick" duration-ms="890" started-at="2017-07-24T23:57:53Z" finished-at="2017-07-24T23:57:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCheckAllButtonCLick -->
+        <test-method status="PASS" signature="verifyButtonLabel()[pri:1, instance:com.automation.testcases.MultiSelectCheckBoxPageTest@148080bb]" name="verifyButtonLabel" duration-ms="562" started-at="2017-07-24T23:58:43Z" finished-at="2017-07-24T23:58:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyButtonLabel -->
+        <test-method status="PASS" signature="verifyBUttonLabelAfterDeselectOneOption()[pri:2, instance:com.automation.testcases.MultiSelectCheckBoxPageTest@148080bb]" name="verifyBUttonLabelAfterDeselectOneOption" duration-ms="781" started-at="2017-07-24T23:59:23Z" finished-at="2017-07-24T23:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBUttonLabelAfterDeselectOneOption -->
+        <test-method status="PASS" signature="verifyAllOptionSelect()[pri:3, instance:com.automation.testcases.MultiSelectCheckBoxPageTest@148080bb]" name="verifyAllOptionSelect" duration-ms="26176" started-at="2017-07-24T23:59:27Z" finished-at="2017-07-24T23:59:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllOptionSelect -->
+      </class> <!-- com.automation.testcases.MultiSelectCheckBoxPageTest -->
+      <class name="com.automation.testcases.MultipleSelectDropdownListPageTest">
+        <test-method status="PASS" signature="selectMultipleOption()[pri:0, instance:com.automation.testcases.MultipleSelectDropdownListPageTest@55d56113]" name="selectMultipleOption" duration-ms="13657" started-at="2017-07-24T23:57:39Z" finished-at="2017-07-24T23:57:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectMultipleOption -->
+        <test-method status="PASS" signature="getAllOptionsInlistBox()[pri:1, instance:com.automation.testcases.MultipleSelectDropdownListPageTest@55d56113]" name="getAllOptionsInlistBox" duration-ms="921" started-at="2017-07-24T23:58:40Z" finished-at="2017-07-24T23:58:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllOptionsInlistBox -->
+        <test-method status="PASS" signature="getAllSelectedOptions()[pri:2, instance:com.automation.testcases.MultipleSelectDropdownListPageTest@55d56113]" name="getAllSelectedOptions" duration-ms="12259" started-at="2017-07-24T23:58:55Z" finished-at="2017-07-24T23:59:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllSelectedOptions -->
+      </class> <!-- com.automation.testcases.MultipleSelectDropdownListPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
