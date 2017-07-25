@@ -63,6 +63,8 @@ public class AjaxFormSubmitPage extends TestBase{
 			System.out.println("Something Wrong");
 			APP_LOGS.info("*****************AJAXForm Submit has some issue*****************");
 			logger.log(LogStatus.FAIL, "Form didn't submited");
+			
+			
 		}*/
 	}
 

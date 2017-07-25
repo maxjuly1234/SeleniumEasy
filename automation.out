@@ -2626,3 +2626,52 @@ Age group: 5 - 15
 Age group:
 2017-07-25 00:00:05 INFO  RadioButtonsDemoPage:416 - Both Gender and Age Grp Selections Are As Expected
 2017-07-25 00:00:05 INFO  RadioButtonsDemoPageTest:52 - ***END OF VALIDATING GROUP RADIO BUTTON TEST CASE WITH MULTIPLE INPUTS FROM EXCEL***
+2017-07-25 14:49:42 INFO  TestBase:89 - Opened mozilla browser
+2017-07-25 14:49:42 INFO  TestBase:91 - Navigated to Seleniumeasy.com/test
+2017-07-25 14:49:45 INFO  TestBase:60 - *****************AJAXForm Field Validation is over*****************
+2017-07-25 14:49:52 INFO  TestBase:47 - *****************AJAXFormSubmit Flow is over*****************
+2017-07-25 14:49:52 INFO  BootstrapAlertsPageTest:17 - ******************************************BOOTSTRAP ALERTS*********************************************
+2017-07-25 14:49:52 INFO  MainClass:70 - Alert and Models Menu options opened
+2017-07-25 14:49:54 INFO  MainClass:75 - Navigated to Bootstrap Alert Page
+2017-07-25 14:49:54 INFO  MainClass:77 - Selenium Easy - Bootstrap Alerts Demo for Automation
+2017-07-25 14:49:54 INFO  MainClass:9 - The message on the bootstrap button is Autocloseable success message
+2017-07-25 14:49:54 INFO  MainClass:12 - Clicked on bootstrap alert button
+2017-07-25 14:50:04 INFO  MainClass:27 - I'm an autocloseable success message. I will hide in 5 seconds.
+2017-07-25 14:50:04 INFO  BootstrapAlertsPageTest:23 - ==========================================End of verifyBootstrapAlerts Testcases=======================
+2017-07-25 14:50:04 INFO  BootstrapDatePickerPageTest:82 - ******************************************Start verifying verifyTodaysDate Test Case*********************************************
+2017-07-25 14:50:04 INFO  MainBootstrapDatePickerPage:73 - You Clicked on DatePickers Menu
+2017-07-25 14:50:11 INFO  BootstrapDatePickerPageTest:88 - ******************************************Completed verifying verifyTodaysDate Test Case*********************************************
+2017-07-25 14:50:11 INFO  BootstrapDatePickerPageTest:29 - ******************************************Start verifying verifyBootstrapCalendar Test Case*********************************************
+2017-07-25 14:50:11 INFO  MainBootstrapDatePickerPage:73 - You Clicked on DatePickers Menu
+2017-07-25 14:50:11 INFO  MainBootstrapDatePickerPage:90 - You are in the Bootstrap DatePicker Test Case Page
+2017-07-25 14:50:11 INFO  BootstrapDatePickerPageTest:34 - ==========================================Completed verifying verifyBootstrapCalendar Test Case========================================
+2017-07-25 14:50:11 INFO  BootstrapDatePickerPageTest:69 - ******************************************Start verifying verifyDateCleared Test Case*********************************************
+2017-07-25 14:50:12 INFO  MainBootstrapDatePickerPage:73 - You Clicked on DatePickers Menu
+2017-07-25 14:50:13 INFO  MainBootstrapDatePickerPage:140 - Date Entered is 25/07/2017
+2017-07-25 14:50:14 INFO  MainBootstrapDatePickerPage:147 - Date Entered is Cleared
+2017-07-25 14:50:14 INFO  BootstrapDatePickerPageTest:74 - ******************************************Completed verifying verifyDateCleared Test Case*********************************************
+2017-07-25 14:50:14 INFO  BootstrapDatePickerPageTest:42 - ******************************************Start verifying verifyDaysOfWeekIsDisabled Test Case*********************************************
+2017-07-25 14:50:14 INFO  MainBootstrapDatePickerPage:73 - You Clicked on DatePickers Menu
+2017-07-25 14:50:15 INFO  BootstrapDatePickerPageTest:47 - ******************************************Completed verifying verifyDaysOfWeekIsDisabled Test Case*********************************************
+2017-07-25 14:50:15 INFO  BootstrapDatePickerPageTest:56 - ******************************************Start verifying verifyStartingWeek Test Case*********************************************
+2017-07-25 14:50:15 INFO  MainBootstrapDatePickerPage:73 - You Clicked on DatePickers Menu
+2017-07-25 14:50:16 INFO  MainBootstrapDatePickerPage:122 - Week Starts from Monday, value is Mo
+2017-07-25 14:50:16 INFO  BootstrapDatePickerPageTest:61 - ******************************************Completed verifying verifyStartingWeek Test Case*********************************************
+2017-07-25 14:50:23 INFO  TestBase:122 - *****************InputFormSubmit Button is clicked Using DataProvider*****************
+2017-07-25 14:50:27 INFO  TestBase:122 - *****************InputFormSubmit Button is clicked Using DataProvider*****************
+2017-07-25 14:50:27 INFO  TestBase:133 - *****************InputFormSubmit Button is clicked in Validation Screen*****************
+2017-07-25 14:50:32 INFO  TestBase:170 - *****************InputFormSubmit Button Error Validation is Completed*****************
+2017-07-25 14:50:32 INFO  JavaScriptAlertPageTest:21 - ******************************JAVASCRIPT ALERT***************************************
+2017-07-25 14:50:33 INFO  MainClass:70 - Alert and Models Menu options opened
+2017-07-25 14:50:34 INFO  MainClass:88 - Navigateed to Javascript Alerts menu page
+2017-07-25 14:50:34 INFO  JavaScriptAlertPageTest:26 - ==============================End of verifyJavaScriptAlertPage TestCase========================
+2017-07-25 14:50:34 INFO  JQueryDatePickerPageTest:27 - ******************************************Start verifying verifyJQueryCalendar Test Case*********************************************
+2017-07-25 14:50:35 INFO  MainJQueryDatePickerPage:59 - You Clicked on DatePickers Menu
+2017-07-25 14:50:38 INFO  MainJQueryDatePickerPage:80 - You are in the JQuery DatePicker Page
+2017-07-25 14:50:38 INFO  JQueryDatePickerPageTest:34 - ==========================================Completed verifying verifyJQueryCalendar Test Case========================================
+2017-07-25 14:50:38 INFO  JQueryDatePickerPageTest:40 - ******************************************Start verifying verifyJQueryCalendarStartAndEndDates Test Case*********************************************
+2017-07-25 14:50:38 INFO  MainJQueryDatePickerPage:59 - You Clicked on DatePickers Menu
+2017-07-25 14:50:41 INFO  JQueryDatePickerPageTest:47 - ==========================================Completed verifying verifyJQueryCalendarStartAndEndDates Test Case========================================
+2017-07-25 14:50:41 INFO  MultipleSelectDropdownListPageTest:17 - *******************************MULTIPLE SELECT DROPDOWN LIST******************************
+2017-07-25 14:50:42 INFO  MainClass:46 - InputFormLInk is clicked
+2017-07-25 14:50:43 INFO  MainClass:63 - Select Dropdown List Menu selected
