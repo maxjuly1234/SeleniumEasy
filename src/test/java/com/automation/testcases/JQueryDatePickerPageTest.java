@@ -22,7 +22,8 @@ public class JQueryDatePickerPageTest extends TestBase {
 	public void before() throws Throwable
 	{
 		initialization();
-		mainjquerydatepicker = PageFactory.initElements(driver, MainJQueryDatePicker.class);
+		mainjquerydatepicker = PageFactory.initElements(driver, MainJQueryDatePickerPage.class);
+		mainjquerydatepicker.NavigateToSeleniumEasyTest();
 		extentReport(pageName);
 		System.out.println("Page Object created");
 		
@@ -33,7 +34,6 @@ public class JQueryDatePickerPageTest extends TestBase {
 		
 		APP_LOGS.info("******************************************Start verifying verifyJQueryCalendar Test Case*********************************************");
 		
-		//mainjquerydatepicker = new MainJQueryDatePicker(driver);
 		
 		mainjquerydatepicker.NavigateToDatePickers();
 		mainjquerydatepicker.NavigateToJQueryDatePicker();
@@ -46,7 +46,6 @@ public class JQueryDatePickerPageTest extends TestBase {
 	@Test
 	public void verifyDatesBeforeStartDateAreDisabled() throws InterruptedException {
 		APP_LOGS.info("******************************************Start verifying verifyDatesBeforeStartDateAreDisabled Test Case*********************************************");
-		//mainjquerydatepicker = new MainJQueryDatePicker(driver);
 		
 		mainjquerydatepicker.NavigateToDatePickers();
 		mainjquerydatepicker.NavigateToJQueryDatePicker();
@@ -58,8 +57,8 @@ public class JQueryDatePickerPageTest extends TestBase {
 	
 	@Test
 	public void verifyDatesAfterToDateAreDisabled() {
+		
 		APP_LOGS.info("******************************************Start verifying verifyDatesAfterToDateAreDisabled Test Case*********************************************");
-		//mainjquerydatepicker = new MainJQueryDatePicker(driver);
 		
 		mainjquerydatepicker.NavigateToDatePickers();
 		mainjquerydatepicker.NavigateToJQueryDatePicker();
