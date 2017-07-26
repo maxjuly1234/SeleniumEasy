@@ -1,0 +1,7 @@
+/classes/
+/test-classes/
+/target
+/ScreenShots
+/extentReports
+/test-output
+*.out
