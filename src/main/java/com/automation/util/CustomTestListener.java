@@ -27,7 +27,7 @@ public class CustomTestListener extends TestBase implements ITestListener{
     	String methodName=result.getName().toString().trim();
     	screenShotCreator(methodName);
 		
-	}
+	}	
 
 	public void onTestSkipped(ITestResult result) {
 		// TODO Auto-generated method stub

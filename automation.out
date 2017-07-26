@@ -2675,3 +2675,20 @@ Age group:
 2017-07-25 14:50:41 INFO  MultipleSelectDropdownListPageTest:17 - *******************************MULTIPLE SELECT DROPDOWN LIST******************************
 2017-07-25 14:50:42 INFO  MainClass:46 - InputFormLInk is clicked
 2017-07-25 14:50:43 INFO  MainClass:63 - Select Dropdown List Menu selected
+2017-07-26 06:46:52 INFO  TestBase:98 - Opened mozilla browser
+2017-07-26 06:46:52 INFO  TestBase:100 - Navigated to Seleniumeasy.com/test
+2017-07-26 06:47:04 INFO  TestBase:176 - Screenshot taken
+2017-07-26 06:47:05 INFO  BootstrapAlertsPageTest:17 - ******************************************BOOTSTRAP ALERTS*********************************************
+2017-07-26 06:47:15 INFO  TestBase:176 - Screenshot taken
+2017-07-26 06:47:15 INFO  BootstrapDatePickerPageTest:82 - ******************************************Start verifying verifyTodaysDate Test Case*********************************************
+2017-07-26 06:47:26 INFO  TestBase:176 - Screenshot taken
+2017-07-26 06:47:26 INFO  BootstrapDatePickerPageTest:29 - ******************************************Start verifying verifyBootstrapCalendar Test Case*********************************************
+2017-07-26 06:47:36 INFO  TestBase:176 - Screenshot taken
+2017-07-26 06:47:36 INFO  BootstrapDatePickerPageTest:69 - ******************************************Start verifying verifyDateCleared Test Case*********************************************
+2017-07-26 06:47:46 INFO  TestBase:176 - Screenshot taken
+2017-07-26 06:47:46 INFO  BootstrapDatePickerPageTest:42 - ******************************************Start verifying verifyDaysOfWeekIsDisabled Test Case*********************************************
+2017-07-26 07:14:27 INFO  TestBase:107 - Opened mozilla browser
+2017-07-26 07:14:27 INFO  TestBase:109 - Navigated to Seleniumeasy.com/test
+2017-07-26 07:14:34 INFO  TestBase:107 - Opened mozilla browser
+2017-07-26 07:14:34 INFO  TestBase:109 - Navigated to Seleniumeasy.com/test
+2017-07-26 07:14:45 INFO  TestBase:178 - Screenshot taken

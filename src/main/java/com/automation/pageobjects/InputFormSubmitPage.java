@@ -45,7 +45,7 @@ public class InputFormSubmitPage extends TestBase{
 	@FindBy(how=How.CSS, using=".form-control.selectpicker") WebElement state;
 	@FindBy(how=How.CSS, using="[name='zip'].form-control") WebElement zipCode;
 	@FindBy(how=How.CSS, using="[name='comment'][placeholder='Project Description']") WebElement projDescription;
-	@FindBy(how=How.XPATH, using="//div[@class='col-md-4']/button[@type='submit']") WebElement sendButton;
+	@FindBy(how=How.XPATH, using="//div[@class='col-md-4']/button[@type='submitt']") WebElement sendButton;
 	//@FindBy(how=How.CSS, using="div[class$='has-error']>div>small[data-bv-result='INVALID']") WebElement allFieldsValidationErrorMessages_Invalid; 
 	//@FindBy(how=How.CSS, using="div[class$='has-error']>div>small[data-bv-result='VALID']") WebElement allFieldsValidationErrorMessages_Valid;
 	

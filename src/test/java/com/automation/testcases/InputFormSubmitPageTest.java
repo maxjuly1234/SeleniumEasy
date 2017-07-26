@@ -6,6 +6,8 @@ package com.automation.testcases;
 import org.apache.poi.ss.usermodel.Cell;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.ITestResult;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
@@ -14,6 +16,13 @@ import org.testng.annotations.Test;
 import com.automation.base.TestBase;
 import com.automation.pageobjects.AjaxFormSubmitPage;
 import com.automation.pageobjects.InputFormSubmitPage;
+
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
+import com.aventstack.extentreports.markuputils.ExtentColor;
+import com.aventstack.extentreports.markuputils.MarkupHelper;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
 /**
  * @author bbanduch
@@ -27,7 +36,7 @@ public class InputFormSubmitPageTest extends TestBase {
 	@BeforeTest
 	public void inputFormSubmitLaunch() {
 		try {
-			//initialization();
+			initialization();
 			inputformSubmit = PageFactory.initElements(driver,InputFormSubmitPage.class);
 			extentReport(pageName);
 			inputformSubmit.inputFormLaunch();
@@ -44,12 +53,12 @@ public class InputFormSubmitPageTest extends TestBase {
 		}
 	}
 
-	@Test()
+	@Test(priority=1)
 	public void validatingFieldsData() {
 		inputformSubmit.inputFormSubmitInValidValidations();
 	}
 
-	@Test(dataProvider = "DataSupply")
+	@Test(priority=2,dataProvider = "DataSupply")
 	public void enterInputFormDetails(String string1, String string2,
 			String string3, String string4, String string5, String string6,
 			String string7, String string8, String string9) throws Throwable {
@@ -115,4 +124,26 @@ public class InputFormSubmitPageTest extends TestBase {
 		//rep.endTest(test);
 		rep.flush();
 	}
+	
+	  @AfterMethod
+	    public void getResult(ITestResult result) throws Exception
+	    {
+	        if (result.getStatus() == ITestResult.FAILURE)
+	        {
+	            String screenShotPath = screenShotCreator(driver, "MyFullPageScreenshot");
+	            test.log(Status.FAIL, MarkupHelper.createLabel(result.getName()+" Test case FAILED due to below issues:", ExtentColor.RED));
+	            test.fail(result.getThrowable());
+	            test.fail("Snapshot below: " + test.addScreenCaptureFromPath(screenShotPath));
+	        }
+	        else if(result.getStatus() == ITestResult.SUCCESS)
+	        {
+	            test.log(Status.PASS, MarkupHelper.createLabel(result.getName()+" Test Case PASSED", ExtentColor.GREEN));
+	        }
+	        else
+	        {
+	            test.log(Status.SKIP, MarkupHelper.createLabel(result.getName()+" Test Case SKIPPED", ExtentColor.ORANGE));
+	            test.skip(result.getThrowable());
+	        }
+	        rep.flush();
+	    }
 }

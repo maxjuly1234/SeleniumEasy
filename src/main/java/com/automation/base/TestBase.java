@@ -2,6 +2,7 @@ package com.automation.base;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.IOException;
 import java.util.Date;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
@@ -32,6 +33,14 @@ import com.automation.util.ExtentManager;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+
+import ru.yandex.qatools.ashot.AShot;
+import ru.yandex.qatools.ashot.Screenshot;
+import ru.yandex.qatools.ashot.shooting.ShootingStrategies;
+
+import javax.imageio.ImageIO;
+
+import java.io.File;
 
 //import org.testng.asserts.SoftAssert;
 
@@ -142,23 +151,16 @@ public class TestBase {
 		}
 	}
 
-	public void screenShotCreator(WebDriver driver,String screenShotName) {
+	public String screenShotCreator(WebDriver driver,String screenShotName) throws IOException {
 
-		try {
-				// Create refernce of TakesScreenshot
-				TakesScreenshot ts = (TakesScreenshot) driver;
-
-				// Call method to capture screenshot
-				File source = ts.getScreenshotAs(OutputType.FILE);
-
-			
-				FileUtils.copyFile(source,new File("./ScreenShots/" + screenShotName + ".png"));
-
-				System.out.println("Screenshot taken");
-			} catch (Exception e) {
-
-				System.out.println("Exception while taking screenshot "	+ e.getMessage());
-			}
+		Date d=new Date();				
+		String appendDate=d.toString().replace(":", "_").replace(" ", "_");
+		
+		
+		Screenshot screenshot = new AShot().shootingStrategy(ShootingStrategies.viewportPasting(1000)).takeScreenshot(driver);
+        String dest = System.getProperty("user.dir") + "/ScreenShots/" + screenShotName + appendDate +".png";
+        ImageIO.write(screenshot.getImage(),"PNG",new File(dest));
+        return dest;
 
 		}
 	public String screenShotCreator(String screenShotName) {
