@@ -1,4 +1,4 @@
-package com.automation.testcase;
+package com.automation.testcases;
 
 import org.apache.log4j.Logger;
 import org.testng.annotations.AfterClass;
