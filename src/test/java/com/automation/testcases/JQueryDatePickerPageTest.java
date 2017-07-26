@@ -1,6 +1,7 @@
 package com.automation.testcases;
 
 import org.apache.log4j.Logger;
+import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -13,19 +14,26 @@ public class JQueryDatePickerPageTest extends TestBase {
 
 	public static final Logger APP_LOGS=Logger.getLogger(JQueryDatePickerPageTest.class.getName());
 	
+	String pageName = "MainJQueryDatePickerPage";
 	MainJQueryDatePickerPage mainjquerydatepicker;
 	
 
-	/*@BeforeClass
+	@BeforeClass
 	public void before() throws Throwable
 	{
-		TestBase.initialization();
-	}*/
+		initialization();
+		mainjquerydatepicker = PageFactory.initElements(driver, MainJQueryDatePicker.class);
+		extentReport(pageName);
+		System.out.println("Page Object created");
+		
+	}
 	
 	@Test
 	public void verifyJQueryCalendar() {
+		
 		APP_LOGS.info("******************************************Start verifying verifyJQueryCalendar Test Case*********************************************");
-		mainjquerydatepicker = new MainJQueryDatePickerPage(driver);
+		
+		//mainjquerydatepicker = new MainJQueryDatePicker(driver);
 		
 		mainjquerydatepicker.NavigateToDatePickers();
 		mainjquerydatepicker.NavigateToJQueryDatePicker();
@@ -36,24 +44,37 @@ public class JQueryDatePickerPageTest extends TestBase {
 	}
 	
 	@Test
-	public void verifyJQueryCalendarStartAndEndDates() throws InterruptedException {
-		APP_LOGS.info("******************************************Start verifying verifyJQueryCalendarStartAndEndDates Test Case*********************************************");
+	public void verifyDatesBeforeStartDateAreDisabled() throws InterruptedException {
+		APP_LOGS.info("******************************************Start verifying verifyDatesBeforeStartDateAreDisabled Test Case*********************************************");
+		//mainjquerydatepicker = new MainJQueryDatePicker(driver);
 		
 		mainjquerydatepicker.NavigateToDatePickers();
 		mainjquerydatepicker.NavigateToJQueryDatePicker();
 		mainjquerydatepicker.VerifyDatesBeforeStartDateAreDisabled();
 		
-		Thread.sleep(2000);
-		APP_LOGS.info("==========================================Completed verifying verifyJQueryCalendarStartAndEndDates Test Case========================================");
+		APP_LOGS.info("==========================================Completed verifying verifyDatesBeforeStartDateAreDisabled Test Case========================================");
 		
 	}
 	
+	@Test
+	public void verifyDatesAfterToDateAreDisabled() {
+		APP_LOGS.info("******************************************Start verifying verifyDatesAfterToDateAreDisabled Test Case*********************************************");
+		//mainjquerydatepicker = new MainJQueryDatePicker(driver);
+		
+		mainjquerydatepicker.NavigateToDatePickers();
+		mainjquerydatepicker.NavigateToJQueryDatePicker();
+		mainjquerydatepicker.VerifyDatesAfterToDateAreDisabled();
+		
+		APP_LOGS.info("==========================================Completed verifying verifyDatesAfterToDateAreDisabled Test Case========================================");
+		
+	}
 	
-	/*@AfterClass
+	@AfterClass
 	public void after()
 	{
-	  TestBase.destroy();
-	}*/
+		rep.flush();
+		TestBase.destroy();
+	}
 	
 	
 
