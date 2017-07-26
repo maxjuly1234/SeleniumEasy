@@ -34,6 +34,10 @@ public class InputFormSubmitPage extends TestBase{
 	
 	//INPUTFORM SUBMIT -- Objects Locators
 	
+	
+	//*[@id='block-block-57']/div/div/a
+	
+	@FindBy(how=How.XPATH, using="//*[@id='block-block-57']/div/div/a") WebElement demowebsite;
 	@FindBy(how=How.XPATH, using="//*[@id='treemenu']/li/ul/li[1]/a") WebElement inputformlink;		
 	@FindBy(how=How.XPATH, using="//*[@id='treemenu']/li/ul/li[1]/ul/li[5]/a") WebElement inputFormSubmit;	
 	@FindBy(how=How.CSS, using="[name='first_name'][placeholder='First Name']") WebElement firstName;
@@ -50,8 +54,11 @@ public class InputFormSubmitPage extends TestBase{
 	//@FindBy(how=How.CSS, using="div[class$='has-error']>div>small[data-bv-result='VALID']") WebElement allFieldsValidationErrorMessages_Valid;
 	
 	@FindBy(css="div[class$='has-error']>div>small[data-bv-result='INVALID']") public List<WebElement> allFieldsValidationErrorMessages_Invalid;
+	
+	
 	public void inputFormLaunch() 
 	{
+		demowebsite.click();
 		inputformlink.click();
 		inputFormSubmit.click();	
 	}
