@@ -8,21 +8,21 @@ import org.testng.annotations.Test;
 
 import com.automation.base.TestBase;
 import com.automation.pageobjects.MainClass;
-import com.automation.pageobjects.MainJQueryDatePickerPage;
+import com.automation.pageobjects.JQueryDatePickerPage;
 
 public class JQueryDatePickerPageTest extends TestBase {
 
 	public static final Logger APP_LOGS=Logger.getLogger(JQueryDatePickerPageTest.class.getName());
 	
 	String pageName = "MainJQueryDatePickerPage";
-	MainJQueryDatePickerPage mainjquerydatepicker;
+	JQueryDatePickerPage mainjquerydatepicker;
 	
 
 	@BeforeClass
 	public void before() throws Throwable
 	{
 		initialization();
-		mainjquerydatepicker = PageFactory.initElements(driver, MainJQueryDatePickerPage.class);
+		mainjquerydatepicker = PageFactory.initElements(driver, JQueryDatePickerPage.class);
 		mainjquerydatepicker.NavigateToSeleniumEasyTest();
 		extentReport(pageName);
 		System.out.println("Page Object created");
