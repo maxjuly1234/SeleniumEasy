@@ -5,3 +5,5 @@
 /extentReports
 /test-output
 *.out
+.out
+*.png
