@@ -26,7 +26,7 @@ public class AjaxFormSubmitPage extends TestBase{
 	@FindBy(how=How.XPATH, using="//*[@id='treemenu']/li/ul/li[1]/a") WebElement inputformlink;	
 	@FindBy(how=How.XPATH, using="//*[@id='treemenu']/li/ul/li[1]/ul/li[6]") WebElement ajaxFormSubmit;
 	@FindBy(how=How.XPATH, using="//*[@id='title' and @type='text']") WebElement name;	
-	@FindBy(how=How.XPATH, using="//input[@id='btn-submit' and @value='submitt']") WebElement submitButton;
+	@FindBy(how=How.XPATH, using="//input[@id='btn-submit' and @value='submit']") WebElement submitButton;
 	@FindBy(how=How.XPATH, using="//*[@id='description']")  WebElement comment; 
 	
 	@FindBy(how=How.XPATH, using="//*[@id='submit-control']")  WebElement successMsg;

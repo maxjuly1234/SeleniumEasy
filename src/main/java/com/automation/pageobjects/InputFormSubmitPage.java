@@ -56,6 +56,7 @@ public class InputFormSubmitPage extends TestBase{
 	@FindBy(css="div[class$='has-error']>div>small[data-bv-result='INVALID']") public List<WebElement> allFieldsValidationErrorMessages_Invalid;
 	public void inputFormLaunch() 
 	{
+		demowebsite.click();
 		inputformlink.click();
 		inputFormSubmit.click();	
 	}
