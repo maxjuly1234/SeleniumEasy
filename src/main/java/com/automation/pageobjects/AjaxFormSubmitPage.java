@@ -23,6 +23,7 @@ public class AjaxFormSubmitPage extends TestBase{
 	public AjaxFormSubmitPage(WebDriver driver) {
 		super(driver);
 	}
+	@FindBy(how=How.XPATH, using="//*[@id='block-block-57']/div/div/a") WebElement demowebsite;
 	@FindBy(how=How.XPATH, using="//*[@id='treemenu']/li/ul/li[1]/a") WebElement inputformlink;	
 	@FindBy(how=How.XPATH, using="//*[@id='treemenu']/li/ul/li[1]/ul/li[6]") WebElement ajaxFormSubmit;
 	@FindBy(how=How.XPATH, using="//*[@id='title' and @type='text']") WebElement name;	
@@ -36,7 +37,7 @@ public class AjaxFormSubmitPage extends TestBase{
 
 	public void ajaxFormLaunc() {
 		
-		
+		demowebsite.click();
 		inputformlink.click();
 		ajaxFormSubmit.click();
 		
