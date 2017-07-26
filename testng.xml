@@ -11,7 +11,6 @@
 			<class name="com.automation.testcases.AjaxFormSubmitPageTest" />
 			<class name="com.automation.testcases.BootstrapAlertsPageTest" />
 			<class name="com.automation.testcases.BootstrapDatePickerPageTest" />
-			<class name="com.automation.testcases.InitAndDestroy" />
 			<class name="com.automation.testcases.InputFormSubmitPageTest" />
 			<class name="com.automation.testcases.JavaScriptAlertPageTest" />
 			<class name="com.automation.testcases.JQueryDatePickerPageTest" />
