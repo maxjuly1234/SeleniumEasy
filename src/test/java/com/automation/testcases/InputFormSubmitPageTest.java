@@ -36,7 +36,7 @@ public class InputFormSubmitPageTest extends TestBase {
 	@BeforeTest
 	public void inputFormSubmitLaunch() {
 		try {
-			initialization();
+			//initialization();
 			inputformSubmit = PageFactory.initElements(driver,InputFormSubmitPage.class);
 			extentReport(pageName);
 			inputformSubmit.inputFormLaunch();
