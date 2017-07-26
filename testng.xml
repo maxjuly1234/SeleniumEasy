@@ -18,11 +18,11 @@
 			<class name="com.automation.testcases.MultipleSelectDropdownListPageTest" />
 			<class name="com.automation.testcases.MultiSelectCheckBoxPageTest" />
 			<class name="com.automation.testcases.Selenium_Easy_JQuery_DropDownTest" />
-			<class name="com.automation.testcases.SimpleFormDemoPageTest" />
+			<!-- <class name="com.automation.testcases.SimpleFormDemoPageTest" /> -->
 			<class name="com.automation.testcases.SingleCheckBoxPageTest" />
 			<class name="com.automation.testcases.SingleSelectDropdownListPageTest" />
 			<class name="com.automation.testcases.TableDataSearchPageTest" />
-			<class name="com.automation.testcases.RadioButtonsDemoPageTest" />
+			<!-- <class name="com.automation.testcases.RadioButtonsDemoPageTest" /> -->
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -115,8 +115,7 @@ public class TestBase {
 
 	}
 
-	public static Cell getExcelData(String SheetName, int RowNum, int ColNum)
-			throws Exception {
+	public static Cell getExcelData(String SheetName, int RowNum, int ColNum) throws Exception {
 		try {
 			Excelfis = new FileInputStream("./Files/InputData.xlsx");
 			ExcelWBook = new XSSFWorkbook(Excelfis);
@@ -132,8 +131,7 @@ public class TestBase {
 
 	}
 
-	public static String getExcelDataInString(String SheetName, int RowNum,
-			int ColNum) throws Exception {
+	public static String getExcelDataInString(String SheetName, int RowNum, int ColNum) throws Exception {
 		try {
 			Excelfis = new FileInputStream("./Files/InputData.xlsx");
 			ExcelWBook = new XSSFWorkbook(Excelfis);
