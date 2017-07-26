@@ -1,4 +1,4 @@
-package com.automation.testcases;
+package com.automation.testcase;
 
 import org.apache.log4j.Logger;
 import org.testng.annotations.AfterClass;
@@ -34,7 +34,7 @@ public class SimpleFormDemoPageTest
 	  {			
 		System.out.println();
 		APP_LOGS.info("***TEST CASE : Verify_Show message Button for Multiple Test data***");
-		SimpleFormDemoPage.singleInputField("./Files/InputData.xlsx", "SingleEnterMessage");
+		SimpleFormDemoPage.singleInputField("./File/InputData.xlsx", "SingleEnterMessage");
 		
 		APP_LOGS.info("***END OF VALIDATING SINGLE INPUT FIELD TEST CASE WITH MULTIPLE INPUTS FROM EXCEL***");
 		System.out.println();
@@ -46,13 +46,13 @@ public class SimpleFormDemoPageTest
 	{
 		System.out.println();
 		APP_LOGS.info("***TEST CASE : Verify_Get Total Button for Multiple Test data***");
-		SimpleFormDemoPage.twoInputFields("./Files/InputData.xlsx", "SumOfValid");
+		SimpleFormDemoPage.twoInputFields("./File/InputData.xlsx", "SumOfValid");
 		
 		APP_LOGS.info("***END OF VALIDATING TWO INPUT FIELDS TEST CASE WITH MULTIPLE INPUTS FROM EXCEL***");
 		System.out.println();		
 	}
 	
-	/*@AfterClass
+/*	@AfterClass
 	  public void after()
 	  {
 		  TestBase.destroy();

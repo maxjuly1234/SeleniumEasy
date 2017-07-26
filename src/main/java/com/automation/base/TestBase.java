@@ -106,7 +106,7 @@ public class TestBase {
 		PropertyConfigurator.configure(log4jConfPath);
 		APP_LOGS.info("Opened " + prop.getProperty("browsertype") + " browser");
 
-		APP_LOGS.info("Navigated to Seleniumeasy.com/test");
+		APP_LOGS.info("Navigated to Seleniumeasy.com URL");
 
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
@@ -214,4 +214,63 @@ public class TestBase {
 		destroy();
 	}
 	
+	
+	//Method to Open desired sheet from Excel file using file name and Sheet name
+  	public static void openExcel(String FileName, String SheetName) 
+      {
+             try
+             {
+          	   Excelfis = new FileInputStream(FileName);
+                 ExcelWBook = new XSSFWorkbook(Excelfis);
+                 ExcelWSheet = ExcelWBook.getSheet(SheetName); 
+             }
+             catch (Exception e)
+                      
+             {
+          	   APP_LOGS.info("File Not Found");
+             }
+      }
+     
+     //Method to get total no of rows in the current sheet opened
+     public static int getTotalNoOfRows()
+     {
+
+  		int TotalRows =ExcelWSheet.getLastRowNum();
+  		//System.out.println("Total Number Of Test Data are  : "+TotalRows );
+  		return(TotalRows);
+     }
+     
+     
+     //Print the total number of rows as number of test data
+     public static void printTotalNoOfRows()
+     {
+  	   System.out.println();
+  	   System.out.println("Total Number Of Test Data are  : "+ TestBase.getTotalNoOfRows());  
+     }
+     
+     
+     //Method to get the Test Data Number
+     public static String getTestDataName(XSSFRow row)
+     {
+  	   String TestDataName=row.getCell(0).toString();
+  	   return TestDataName;
+     }
+     
+     
+   //Method to print the Test Data Number
+     public static void printTestDataName(XSSFRow row)
+     { 	
+  	   	System.out.println();
+  		System.out.println("Running Test Case For - " + row.getCell(0).toString());
+  		System.out.println("---------------------------------");   
+     }
+
+   //Assign Row number to read through excel
+     public static XSSFRow currentRowNumber(int RowNumber )
+
+     {
+     	XSSFRow row =ExcelWSheet.getRow(RowNumber);
+     	return row;	
+     }
+  	
 }

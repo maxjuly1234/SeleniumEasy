@@ -1,4 +1,4 @@
-package com.automation.testcases;
+package com.automation.testcase;
 
 import org.apache.log4j.Logger;
 import org.testng.annotations.AfterClass;
@@ -53,7 +53,7 @@ public class RadioButtonsDemoPageTest extends TestBase
 		System.out.println();
 	  }
 /*	@AfterClass
-	  public void after() throws Exception
+	  public void after()
 	  {
 		  TestBase.destroy();
 	  }
