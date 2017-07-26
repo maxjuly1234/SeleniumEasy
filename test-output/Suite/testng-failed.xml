@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.automation.util.CustomTestListener"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.automation.testcases.BootstrapAlertsPageTest">
+        <methods>
+          <include name="before"/>
+          <include name="after"/>
+        </methods>
+      </class> <!-- com.automation.testcases.BootstrapAlertsPageTest -->
+      <class name="com.automation.testcases.AjaxFormSubmitPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="closeReport"/>
+          <include name="submitAjaxForm"/>
+        </methods>
+      </class> <!-- com.automation.testcases.AjaxFormSubmitPageTest -->
+      <class name="com.automation.testcases.InputFormSubmitPageTest">
+        <methods>
+          <include name="getResult"/>
+          <include name="enterInputFormDetails" invocation-numbers="0 1"/>
+          <include name="validatingFieldsData"/>
+          <include name="inputFormTearDown"/>
+          <include name="inputFormSubmitLaunch"/>
+        </methods>
+      </class> <!-- com.automation.testcases.InputFormSubmitPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

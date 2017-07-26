@@ -1,40 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="3" total="3" passed="0">
+<testng-results skipped="0" failed="4" total="37" passed="33">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="67387" started-at="2017-07-26T01:44:27Z" finished-at="2017-07-26T01:45:35Z">
+  <suite name="Suite" duration-ms="247158" started-at="2017-07-26T06:06:36Z" finished-at="2017-07-26T06:10:43Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="67387" started-at="2017-07-26T01:44:27Z" finished-at="2017-07-26T01:45:35Z">
+    <test name="Test" duration-ms="247158" started-at="2017-07-26T06:06:36Z" finished-at="2017-07-26T06:10:43Z">
       <class name="com.automation.testcases.InputFormSubmitPageTest">
-        <test-method status="PASS" signature="before()[pri:0, instance:com.automation.testcases.InputFormSubmitPageTest@73f792cf]" name="before" is-config="true" duration-ms="9789" started-at="2017-07-26T07:14:17Z" finished-at="2017-07-26T07:14:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="inputFormSubmitLaunch()[pri:0, instance:com.automation.testcases.InputFormSubmitPageTest@73f792cf]" name="inputFormSubmitLaunch" is-config="true" duration-ms="18441" started-at="2017-07-26T07:14:27Z" finished-at="2017-07-26T07:14:46Z">
+        <test-method status="PASS" signature="inputFormSubmitLaunch()[pri:0, instance:com.automation.testcases.InputFormSubmitPageTest@5a61f5df]" name="inputFormSubmitLaunch" is-config="true" duration-ms="16166" started-at="2017-07-26T11:36:36Z" finished-at="2017-07-26T11:36:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inputFormSubmitLaunch -->
-        <test-method status="FAIL" signature="validatingFieldsData()[pri:0, instance:com.automation.testcases.InputFormSubmitPageTest@73f792cf]" name="validatingFieldsData" duration-ms="10034" started-at="2017-07-26T07:14:46Z" finished-at="2017-07-26T07:14:56Z">
+        <test-method status="FAIL" signature="validatingFieldsData()[pri:0, instance:com.automation.testcases.InputFormSubmitPageTest@5a61f5df]" name="validatingFieldsData" duration-ms="10020" started-at="2017-07-26T11:37:42Z" finished-at="2017-07-26T11:37:52Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Unable to locate element: //div[@class='col-md-4']/button[@type='submitt']
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'HIBAIL56712', ip: '192.168.1.19', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_141'
+System info: host: 'HIBAIL56712', ip: '10.91.232.71', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_141'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\bbanduch\AppData\Local\Temp\rust_mozprofile.9YWxkkonfrSy, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=2188.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: b3dda708-c806-46c2-8102-c67b7c0c750b
+Capabilities [{moz:profile=C:\Users\bbanduch\AppData\Local\Temp\rust_mozprofile.hPd7OcVpopxB, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=13604.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 1a6c4aaa-5eb0-455a-8c5b-b86e0db50400
 *** Element info: {Using=xpath, value=//div[@class='col-md-4']/button[@type='submitt']}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@class='col-md-4']/button[@type='submitt']
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'HIBAIL56712', ip: '192.168.1.19', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_141'
+System info: host: 'HIBAIL56712', ip: '10.91.232.71', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_141'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\bbanduch\AppData\Local\Temp\rust_mozprofile.9YWxkkonfrSy, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=2188.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: b3dda708-c806-46c2-8102-c67b7c0c750b
+Capabilities [{moz:profile=C:\Users\bbanduch\AppData\Local\Temp\rust_mozprofile.hPd7OcVpopxB, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=13604.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 1a6c4aaa-5eb0-455a-8c5b-b86e0db50400
 *** Element info: {Using=xpath, value=//div[@class='col-md-4']/button[@type='submitt']}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -53,7 +49,7 @@ Session ID: b3dda708-c806-46c2-8102-c67b7c0c750b
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at com.sun.proxy.$Proxy10.click(Unknown Source)
-	at com.automation.pageobjects.InputFormSubmitPage.inputFormSubmitInValidValidations(InputFormSubmitPage.java:131)
+	at com.automation.pageobjects.InputFormSubmitPage.inputFormSubmitInValidValidations(InputFormSubmitPage.java:138)
 	at com.automation.testcases.InputFormSubmitPageTest.validatingFieldsData(InputFormSubmitPageTest.java:58)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
@@ -85,18 +81,18 @@ Session ID: b3dda708-c806-46c2-8102-c67b7c0c750b
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatingFieldsData -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.automation.testcases.InputFormSubmitPageTest@73f792cf]" name="getResult" is-config="true" duration-ms="6068" started-at="2017-07-26T07:14:56Z" finished-at="2017-07-26T07:15:02Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.automation.testcases.InputFormSubmitPageTest@5a61f5df]" name="getResult" is-config="true" duration-ms="3246" started-at="2017-07-26T11:37:52Z" finished-at="2017-07-26T11:37:55Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=validatingFieldsData status=FAILURE method=InputFormSubmitPageTest.validatingFieldsData()[pri:0, instance:com.automation.testcases.InputFormSubmitPageTest@73f792cf] output={null}]]]>
+                <![CDATA[[TestResult name=validatingFieldsData status=FAILURE method=InputFormSubmitPageTest.validatingFieldsData()[pri:0, instance:com.automation.testcases.InputFormSubmitPageTest@5a61f5df] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="FAIL" signature="enterInputFormDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.automation.testcases.InputFormSubmitPageTest@73f792cf]" name="enterInputFormDetails" duration-ms="10027" started-at="2017-07-26T07:15:04Z" data-provider="DataSupply" finished-at="2017-07-26T07:15:14Z">
+        <test-method status="FAIL" signature="enterInputFormDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.automation.testcases.InputFormSubmitPageTest@5a61f5df]" name="enterInputFormDetails" duration-ms="14361" started-at="2017-07-26T11:37:57Z" data-provider="DataSupply" finished-at="2017-07-26T11:38:11Z">
           <params>
             <param index="0">
               <value>
@@ -146,24 +142,24 @@ Session ID: b3dda708-c806-46c2-8102-c67b7c0c750b
           </params>
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Unable to locate element: //*[@id='treemenu']/li/ul/li[1]/a
+              <![CDATA[Unable to locate element: //div[@class='col-md-4']/button[@type='submitt']
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'HIBAIL56712', ip: '192.168.1.19', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_141'
+System info: host: 'HIBAIL56712', ip: '10.91.232.71', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_141'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\bbanduch\AppData\Local\Temp\rust_mozprofile.9YWxkkonfrSy, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=2188.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: b3dda708-c806-46c2-8102-c67b7c0c750b
-*** Element info: {Using=xpath, value=//*[@id='treemenu']/li/ul/li[1]/a}]]>
+Capabilities [{moz:profile=C:\Users\bbanduch\AppData\Local\Temp\rust_mozprofile.hPd7OcVpopxB, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=13604.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 1a6c4aaa-5eb0-455a-8c5b-b86e0db50400
+*** Element info: {Using=xpath, value=//div[@class='col-md-4']/button[@type='submitt']}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id='treemenu']/li/ul/li[1]/a
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@class='col-md-4']/button[@type='submitt']
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'HIBAIL56712', ip: '192.168.1.19', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_141'
+System info: host: 'HIBAIL56712', ip: '10.91.232.71', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_141'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\bbanduch\AppData\Local\Temp\rust_mozprofile.9YWxkkonfrSy, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=2188.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: b3dda708-c806-46c2-8102-c67b7c0c750b
-*** Element info: {Using=xpath, value=//*[@id='treemenu']/li/ul/li[1]/a}
+Capabilities [{moz:profile=C:\Users\bbanduch\AppData\Local\Temp\rust_mozprofile.hPd7OcVpopxB, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=13604.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 1a6c4aaa-5eb0-455a-8c5b-b86e0db50400
+*** Element info: {Using=xpath, value=//div[@class='col-md-4']/button[@type='submitt']}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -181,7 +177,7 @@ Session ID: b3dda708-c806-46c2-8102-c67b7c0c750b
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at com.sun.proxy.$Proxy10.click(Unknown Source)
-	at com.automation.pageobjects.InputFormSubmitPage.enterInputFormDetails(InputFormSubmitPage.java:106)
+	at com.automation.pageobjects.InputFormSubmitPage.enterInputFormDetails(InputFormSubmitPage.java:126)
 	at com.automation.testcases.InputFormSubmitPageTest.enterInputFormDetails(InputFormSubmitPageTest.java:66)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
@@ -213,18 +209,18 @@ Session ID: b3dda708-c806-46c2-8102-c67b7c0c750b
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterInputFormDetails -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.automation.testcases.InputFormSubmitPageTest@73f792cf]" name="getResult" is-config="true" duration-ms="5213" started-at="2017-07-26T07:15:14Z" finished-at="2017-07-26T07:15:19Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.automation.testcases.InputFormSubmitPageTest@5a61f5df]" name="getResult" is-config="true" duration-ms="3812" started-at="2017-07-26T11:38:11Z" finished-at="2017-07-26T11:38:15Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=enterInputFormDetails status=FAILURE method=InputFormSubmitPageTest.enterInputFormDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.automation.testcases.InputFormSubmitPageTest@73f792cf] output={null}]]]>
+                <![CDATA[[TestResult name=enterInputFormDetails status=FAILURE method=InputFormSubmitPageTest.enterInputFormDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.automation.testcases.InputFormSubmitPageTest@5a61f5df] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="FAIL" signature="enterInputFormDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.automation.testcases.InputFormSubmitPageTest@73f792cf]" name="enterInputFormDetails" duration-ms="10042" started-at="2017-07-26T07:15:19Z" data-provider="DataSupply" finished-at="2017-07-26T07:15:29Z">
+        <test-method status="FAIL" signature="enterInputFormDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.automation.testcases.InputFormSubmitPageTest@5a61f5df]" name="enterInputFormDetails" duration-ms="13539" started-at="2017-07-26T11:38:15Z" data-provider="DataSupply" finished-at="2017-07-26T11:38:29Z">
           <params>
             <param index="0">
               <value>
@@ -274,24 +270,24 @@ Session ID: b3dda708-c806-46c2-8102-c67b7c0c750b
           </params>
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Unable to locate element: //*[@id='treemenu']/li/ul/li[1]/a
+              <![CDATA[Unable to locate element: //div[@class='col-md-4']/button[@type='submitt']
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'HIBAIL56712', ip: '192.168.1.19', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_141'
+System info: host: 'HIBAIL56712', ip: '10.91.232.71', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_141'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\bbanduch\AppData\Local\Temp\rust_mozprofile.9YWxkkonfrSy, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=2188.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: b3dda708-c806-46c2-8102-c67b7c0c750b
-*** Element info: {Using=xpath, value=//*[@id='treemenu']/li/ul/li[1]/a}]]>
+Capabilities [{moz:profile=C:\Users\bbanduch\AppData\Local\Temp\rust_mozprofile.hPd7OcVpopxB, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=13604.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 1a6c4aaa-5eb0-455a-8c5b-b86e0db50400
+*** Element info: {Using=xpath, value=//div[@class='col-md-4']/button[@type='submitt']}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id='treemenu']/li/ul/li[1]/a
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@class='col-md-4']/button[@type='submitt']
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'HIBAIL56712', ip: '192.168.1.19', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_141'
+System info: host: 'HIBAIL56712', ip: '10.91.232.71', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_141'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\bbanduch\AppData\Local\Temp\rust_mozprofile.9YWxkkonfrSy, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=2188.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: b3dda708-c806-46c2-8102-c67b7c0c750b
-*** Element info: {Using=xpath, value=//*[@id='treemenu']/li/ul/li[1]/a}
+Capabilities [{moz:profile=C:\Users\bbanduch\AppData\Local\Temp\rust_mozprofile.hPd7OcVpopxB, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=13604.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 1a6c4aaa-5eb0-455a-8c5b-b86e0db50400
+*** Element info: {Using=xpath, value=//div[@class='col-md-4']/button[@type='submitt']}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -309,7 +305,7 @@ Session ID: b3dda708-c806-46c2-8102-c67b7c0c750b
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at com.sun.proxy.$Proxy10.click(Unknown Source)
-	at com.automation.pageobjects.InputFormSubmitPage.enterInputFormDetails(InputFormSubmitPage.java:106)
+	at com.automation.pageobjects.InputFormSubmitPage.enterInputFormDetails(InputFormSubmitPage.java:126)
 	at com.automation.testcases.InputFormSubmitPageTest.enterInputFormDetails(InputFormSubmitPageTest.java:66)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
@@ -341,26 +337,291 @@ Session ID: b3dda708-c806-46c2-8102-c67b7c0c750b
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterInputFormDetails -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.automation.testcases.InputFormSubmitPageTest@73f792cf]" name="getResult" is-config="true" duration-ms="5395" started-at="2017-07-26T07:15:29Z" finished-at="2017-07-26T07:15:35Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.automation.testcases.InputFormSubmitPageTest@5a61f5df]" name="getResult" is-config="true" duration-ms="3688" started-at="2017-07-26T11:38:29Z" finished-at="2017-07-26T11:38:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=enterInputFormDetails status=FAILURE method=InputFormSubmitPageTest.enterInputFormDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.automation.testcases.InputFormSubmitPageTest@73f792cf] output={null}]]]>
+                <![CDATA[[TestResult name=enterInputFormDetails status=FAILURE method=InputFormSubmitPageTest.enterInputFormDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.automation.testcases.InputFormSubmitPageTest@5a61f5df] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="inputFormTearDown()[pri:0, instance:com.automation.testcases.InputFormSubmitPageTest@73f792cf]" name="inputFormTearDown" is-config="true" duration-ms="50" started-at="2017-07-26T07:15:35Z" finished-at="2017-07-26T07:15:35Z">
+      </class> <!-- com.automation.testcases.InputFormSubmitPageTest -->
+      <class name="com.automation.testcases.SingleSelectDropdownListPageTest">
+        <test-method status="PASS" signature="verifySelectDropdownListDemoPage()[pri:0, instance:com.automation.testcases.SingleSelectDropdownListPageTest@35fb3008]" name="verifySelectDropdownListDemoPage" duration-ms="654" started-at="2017-07-26T11:40:23Z" finished-at="2017-07-26T11:40:24Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- inputFormTearDown -->
-        <test-method status="PASS" signature="after()[pri:0, instance:com.automation.testcases.InputFormSubmitPageTest@73f792cf]" name="after" is-config="true" duration-ms="1286" started-at="2017-07-26T07:15:36Z" finished-at="2017-07-26T07:15:38Z">
+        </test-method> <!-- verifySelectDropdownListDemoPage -->
+        <test-method status="PASS" signature="SelectDay()[pri:0, instance:com.automation.testcases.SingleSelectDropdownListPageTest@35fb3008]" name="SelectDay" duration-ms="960" started-at="2017-07-26T11:40:24Z" finished-at="2017-07-26T11:40:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectDay -->
+        <test-method status="PASS" signature="verifySuccessMessage()[pri:0, instance:com.automation.testcases.SingleSelectDropdownListPageTest@35fb3008]" name="verifySuccessMessage" duration-ms="1014" started-at="2017-07-26T11:40:25Z" finished-at="2017-07-26T11:40:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySuccessMessage -->
+      </class> <!-- com.automation.testcases.SingleSelectDropdownListPageTest -->
+      <class name="com.automation.testcases.BootstrapDatePickerPageTest">
+        <test-method status="PASS" signature="VerifyTodaysDate()[pri:0, instance:com.automation.testcases.BootstrapDatePickerPageTest@531be3c5]" name="VerifyTodaysDate" duration-ms="1960" started-at="2017-07-26T11:37:34Z" finished-at="2017-07-26T11:37:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTodaysDate -->
+        <test-method status="PASS" signature="verifyBootstrapCalendar()[pri:0, instance:com.automation.testcases.BootstrapDatePickerPageTest@531be3c5]" name="verifyBootstrapCalendar" duration-ms="909" started-at="2017-07-26T11:37:36Z" finished-at="2017-07-26T11:37:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBootstrapCalendar -->
+        <test-method status="PASS" signature="verifyDateCleared()[pri:0, instance:com.automation.testcases.BootstrapDatePickerPageTest@531be3c5]" name="verifyDateCleared" duration-ms="2012" started-at="2017-07-26T11:37:37Z" finished-at="2017-07-26T11:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDateCleared -->
+        <test-method status="PASS" signature="verifyDaysOfWeekIsDisabled()[pri:0, instance:com.automation.testcases.BootstrapDatePickerPageTest@531be3c5]" name="verifyDaysOfWeekIsDisabled" duration-ms="1190" started-at="2017-07-26T11:37:39Z" finished-at="2017-07-26T11:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDaysOfWeekIsDisabled -->
+        <test-method status="PASS" signature="verifyStartingWeek()[pri:0, instance:com.automation.testcases.BootstrapDatePickerPageTest@531be3c5]" name="verifyStartingWeek" duration-ms="1139" started-at="2017-07-26T11:37:40Z" finished-at="2017-07-26T11:37:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStartingWeek -->
+      </class> <!-- com.automation.testcases.BootstrapDatePickerPageTest -->
+      <class name="com.automation.testcases.SingleCheckBoxPageTest">
+        <test-method status="PASS" signature="checkSingleSelectCheckbox()[pri:0, instance:com.automation.testcases.SingleCheckBoxPageTest@52af6cff]" name="checkSingleSelectCheckbox" duration-ms="1027" started-at="2017-07-26T11:40:20Z" finished-at="2017-07-26T11:40:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSingleSelectCheckbox -->
+        <test-method status="PASS" signature="verifyCheckboxPage()[pri:0, instance:com.automation.testcases.SingleCheckBoxPageTest@52af6cff]" name="verifyCheckboxPage" duration-ms="947" started-at="2017-07-26T11:40:21Z" finished-at="2017-07-26T11:40:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCheckboxPage -->
+        <test-method status="PASS" signature="verifySucessMessage()[pri:0, instance:com.automation.testcases.SingleCheckBoxPageTest@52af6cff]" name="verifySucessMessage" duration-ms="944" started-at="2017-07-26T11:40:22Z" finished-at="2017-07-26T11:40:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySucessMessage -->
+      </class> <!-- com.automation.testcases.SingleCheckBoxPageTest -->
+      <class name="com.automation.testcases.BootstrapAlertsPageTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.automation.testcases.BootstrapAlertsPageTest@2d554825]" name="before" is-config="true" duration-ms="24251" started-at="2017-07-26T11:36:12Z" finished-at="2017-07-26T11:36:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="verifyBootstrapAlerts()[pri:0, instance:com.automation.testcases.BootstrapAlertsPageTest@2d554825]" name="verifyBootstrapAlerts" duration-ms="16544" started-at="2017-07-26T11:37:18Z" finished-at="2017-07-26T11:37:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBootstrapAlerts -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.automation.testcases.BootstrapAlertsPageTest@2d554825]" name="after" is-config="true" duration-ms="3426" started-at="2017-07-26T11:40:43Z" finished-at="2017-07-26T11:40:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
-      </class> <!-- com.automation.testcases.InputFormSubmitPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.automation.testcases.BootstrapAlertsPageTest -->
+      <class name="com.automation.testcases.JavaScriptAlertPageTest">
+        <test-method status="PASS" signature="verifyJavascriptAlertPage()[pri:0, instance:com.automation.testcases.JavaScriptAlertPageTest@54a097cc]" name="verifyJavascriptAlertPage" duration-ms="880" started-at="2017-07-26T11:38:32Z" finished-at="2017-07-26T11:38:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyJavascriptAlertPage -->
+        <test-method status="PASS" signature="getAlertMessage()[pri:0, instance:com.automation.testcases.JavaScriptAlertPageTest@54a097cc]" name="getAlertMessage" duration-ms="5968" started-at="2017-07-26T11:38:33Z" finished-at="2017-07-26T11:38:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAlertMessage -->
+        <test-method status="PASS" signature="acceptAlertMessage()[pri:0, instance:com.automation.testcases.JavaScriptAlertPageTest@54a097cc]" name="acceptAlertMessage" duration-ms="10833" started-at="2017-07-26T11:38:39Z" finished-at="2017-07-26T11:38:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acceptAlertMessage -->
+      </class> <!-- com.automation.testcases.JavaScriptAlertPageTest -->
+      <class name="com.automation.testcases.TableDataSearchPageTest">
+        <test-method status="PASS" signature="verifyTableDataSearchPage()[pri:0, instance:com.automation.testcases.TableDataSearchPageTest@7225790e]" name="verifyTableDataSearchPage" duration-ms="17185" started-at="2017-07-26T11:40:26Z" finished-at="2017-07-26T11:40:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTableDataSearchPage -->
+      </class> <!-- com.automation.testcases.TableDataSearchPageTest -->
+      <class name="com.automation.testcases.Selenium_Easy_JQuery_DropDownTest">
+        <test-method status="PASS" signature="DropDownWithTerritoryEnabled()[pri:0, instance:com.automation.testcases.Selenium_Easy_JQuery_DropDownTest@3551a94]" name="DropDownWithTerritoryEnabled" duration-ms="2376" started-at="2017-07-26T11:39:54Z" finished-at="2017-07-26T11:39:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DropDownWithTerritoryEnabled -->
+        <test-method status="PASS" signature="MultiSelectStates()[pri:0, instance:com.automation.testcases.Selenium_Easy_JQuery_DropDownTest@3551a94]" name="MultiSelectStates" duration-ms="1325" started-at="2017-07-26T11:39:56Z" finished-at="2017-07-26T11:39:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MultiSelectStates -->
+        <test-method status="PASS" signature="ValidateJQuerySelectDropdownPage()[pri:0, instance:com.automation.testcases.Selenium_Easy_JQuery_DropDownTest@3551a94]" name="ValidateJQuerySelectDropdownPage" duration-ms="817" started-at="2017-07-26T11:39:57Z" finished-at="2017-07-26T11:39:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateJQuerySelectDropdownPage -->
+        <test-method status="PASS" signature="VerifyDropdownWithCategoryRelatedOptions()[pri:0, instance:com.automation.testcases.Selenium_Easy_JQuery_DropDownTest@3551a94]" name="VerifyDropdownWithCategoryRelatedOptions" duration-ms="19623" started-at="2017-07-26T11:39:58Z" finished-at="2017-07-26T11:40:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDropdownWithCategoryRelatedOptions -->
+        <test-method status="PASS" signature="VerifySearchAndSelectCountry()[pri:0, instance:com.automation.testcases.Selenium_Easy_JQuery_DropDownTest@3551a94]" name="VerifySearchAndSelectCountry" duration-ms="1432" started-at="2017-07-26T11:40:18Z" finished-at="2017-07-26T11:40:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySearchAndSelectCountry -->
+        <test-method status="PASS" signature="VerifyTerritoryDisabled()[pri:0, instance:com.automation.testcases.Selenium_Easy_JQuery_DropDownTest@3551a94]" name="VerifyTerritoryDisabled" duration-ms="942" started-at="2017-07-26T11:40:19Z" finished-at="2017-07-26T11:40:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTerritoryDisabled -->
+      </class> <!-- com.automation.testcases.Selenium_Easy_JQuery_DropDownTest -->
+      <class name="com.automation.testcases.MultiSelectCheckBoxPageTest">
+        <test-method status="PASS" signature="verifyCheckAllButtonCLick()[pri:0, instance:com.automation.testcases.MultiSelectCheckBoxPageTest@3cbbc1e0]" name="verifyCheckAllButtonCLick" duration-ms="1245" started-at="2017-07-26T11:39:23Z" finished-at="2017-07-26T11:39:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCheckAllButtonCLick -->
+        <test-method status="PASS" signature="verifyButtonLabel()[pri:0, instance:com.automation.testcases.MultiSelectCheckBoxPageTest@3cbbc1e0]" name="verifyButtonLabel" duration-ms="897" started-at="2017-07-26T11:39:24Z" finished-at="2017-07-26T11:39:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyButtonLabel -->
+        <test-method status="PASS" signature="verifyBUttonLabelAfterDeselectOneOption()[pri:0, instance:com.automation.testcases.MultiSelectCheckBoxPageTest@3cbbc1e0]" name="verifyBUttonLabelAfterDeselectOneOption" duration-ms="1255" started-at="2017-07-26T11:39:25Z" finished-at="2017-07-26T11:39:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBUttonLabelAfterDeselectOneOption -->
+        <test-method status="PASS" signature="verifyAllOptionSelect()[pri:0, instance:com.automation.testcases.MultiSelectCheckBoxPageTest@3cbbc1e0]" name="verifyAllOptionSelect" duration-ms="27001" started-at="2017-07-26T11:39:27Z" finished-at="2017-07-26T11:39:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllOptionSelect -->
+      </class> <!-- com.automation.testcases.MultiSelectCheckBoxPageTest -->
+      <class name="com.automation.testcases.JQueryDatePickerPageTest">
+        <test-method status="PASS" signature="verifyJQueryCalendar()[pri:0, instance:com.automation.testcases.JQueryDatePickerPageTest@735b478]" name="verifyJQueryCalendar" duration-ms="2536" started-at="2017-07-26T11:38:50Z" finished-at="2017-07-26T11:38:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyJQueryCalendar -->
+        <test-method status="PASS" signature="verifyJQueryCalendarStartAndEndDates()[pri:0, instance:com.automation.testcases.JQueryDatePickerPageTest@735b478]" name="verifyJQueryCalendarStartAndEndDates" duration-ms="3186" started-at="2017-07-26T11:38:53Z" finished-at="2017-07-26T11:38:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyJQueryCalendarStartAndEndDates -->
+      </class> <!-- com.automation.testcases.JQueryDatePickerPageTest -->
+      <class name="com.automation.testcases.AjaxFormSubmitPageTest">
+        <test-method status="PASS" signature="ajaxSubmitPageLaunch()[pri:0, instance:com.automation.testcases.AjaxFormSubmitPageTest@36f6e879]" name="ajaxSubmitPageLaunch" duration-ms="967" started-at="2017-07-26T11:36:52Z" finished-at="2017-07-26T11:36:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ajaxSubmitPageLaunch -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.automation.testcases.AjaxFormSubmitPageTest@36f6e879]" name="tearDown" is-config="true" duration-ms="857" started-at="2017-07-26T11:36:53Z" finished-at="2017-07-26T11:36:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ajaxSubmitPageLaunch status=SUCCESS method=AjaxFormSubmitPageTest.ajaxSubmitPageLaunch()[pri:0, instance:com.automation.testcases.AjaxFormSubmitPageTest@36f6e879] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="validatingFieldsData()[pri:0, instance:com.automation.testcases.AjaxFormSubmitPageTest@36f6e879]" name="validatingFieldsData" duration-ms="10137" started-at="2017-07-26T11:36:54Z" finished-at="2017-07-26T11:37:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingFieldsData -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.automation.testcases.AjaxFormSubmitPageTest@36f6e879]" name="tearDown" is-config="true" duration-ms="51" started-at="2017-07-26T11:37:04Z" finished-at="2017-07-26T11:37:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatingFieldsData status=SUCCESS method=AjaxFormSubmitPageTest.validatingFieldsData()[pri:0, instance:com.automation.testcases.AjaxFormSubmitPageTest@36f6e879] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="FAIL" signature="submitAjaxForm()[pri:0, instance:com.automation.testcases.AjaxFormSubmitPageTest@36f6e879]" name="submitAjaxForm" duration-ms="13289" started-at="2017-07-26T11:37:04Z" finished-at="2017-07-26T11:37:17Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //input[@id='btn-submit' and @value='submitt']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'HIBAIL56712', ip: '10.91.232.71', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_141'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\bbanduch\AppData\Local\Temp\rust_mozprofile.hPd7OcVpopxB, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=13604.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 1a6c4aaa-5eb0-455a-8c5b-b86e0db50400
+*** Element info: {Using=xpath, value=//input[@id='btn-submit' and @value='submitt']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@id='btn-submit' and @value='submitt']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'HIBAIL56712', ip: '10.91.232.71', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_141'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\bbanduch\AppData\Local\Temp\rust_mozprofile.hPd7OcVpopxB, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=13604.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 1a6c4aaa-5eb0-455a-8c5b-b86e0db50400
+*** Element info: {Using=xpath, value=//input[@id='btn-submit' and @value='submitt']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.automation.pageobjects.AjaxFormSubmitPage.enterAjaxFormDetails(AjaxFormSubmitPage.java:52)
+	at com.automation.testcases.AjaxFormSubmitPageTest.submitAjaxForm(AjaxFormSubmitPageTest.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitAjaxForm -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.automation.testcases.AjaxFormSubmitPageTest@36f6e879]" name="tearDown" is-config="true" duration-ms="190" started-at="2017-07-26T11:37:18Z" finished-at="2017-07-26T11:37:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=submitAjaxForm status=FAILURE method=AjaxFormSubmitPageTest.submitAjaxForm()[pri:0, instance:com.automation.testcases.AjaxFormSubmitPageTest@36f6e879] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="closeReport()[pri:0, instance:com.automation.testcases.AjaxFormSubmitPageTest@36f6e879]" name="closeReport" is-config="true" duration-ms="61" started-at="2017-07-26T11:40:43Z" finished-at="2017-07-26T11:40:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeReport -->
+        <test-method status="PASS" signature="inputFormTearDown()[pri:0, instance:com.automation.testcases.InputFormSubmitPageTest@5a61f5df]" name="inputFormTearDown" is-config="true" duration-ms="80" started-at="2017-07-26T11:40:43Z" finished-at="2017-07-26T11:40:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputFormTearDown -->
+      </class> <!-- com.automation.testcases.AjaxFormSubmitPageTest -->
+      <class name="com.automation.testcases.MultipleSelectDropdownListPageTest">
+        <test-method status="PASS" signature="selectMultipleOption()[pri:0, instance:com.automation.testcases.MultipleSelectDropdownListPageTest@6df97b55]" name="selectMultipleOption" duration-ms="13480" started-at="2017-07-26T11:38:56Z" finished-at="2017-07-26T11:39:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectMultipleOption -->
+        <test-method status="PASS" signature="getAllOptionsInlistBox()[pri:0, instance:com.automation.testcases.MultipleSelectDropdownListPageTest@6df97b55]" name="getAllOptionsInlistBox" duration-ms="967" started-at="2017-07-26T11:39:09Z" finished-at="2017-07-26T11:39:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllOptionsInlistBox -->
+        <test-method status="PASS" signature="getAllSelectedOptions()[pri:0, instance:com.automation.testcases.MultipleSelectDropdownListPageTest@6df97b55]" name="getAllSelectedOptions" duration-ms="12917" started-at="2017-07-26T11:39:10Z" finished-at="2017-07-26T11:39:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllSelectedOptions -->
+      </class> <!-- com.automation.testcases.MultipleSelectDropdownListPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

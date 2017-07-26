@@ -2692,3 +2692,185 @@ Age group:
 2017-07-26 07:14:34 INFO  TestBase:107 - Opened mozilla browser
 2017-07-26 07:14:34 INFO  TestBase:109 - Navigated to Seleniumeasy.com/test
 2017-07-26 07:14:45 INFO  TestBase:178 - Screenshot taken
+2017-07-26 11:36:36 INFO  TestBase:107 - Opened mozilla browser
+2017-07-26 11:36:36 INFO  TestBase:109 - Navigated to Seleniumeasy.com/test
+2017-07-26 11:36:45 INFO  TestBase:107 - Opened mozilla browser
+2017-07-26 11:36:45 INFO  TestBase:109 - Navigated to Seleniumeasy.com/test
+2017-07-26 11:36:52 INFO  TestBase:33 - PageObject created
+2017-07-26 11:36:53 INFO  TestBase:43 - ************AjaxForm is launched***********
+2017-07-26 11:36:54 INFO  TestBase:73 - ********Inside Ajax Validation screen****************
+2017-07-26 11:37:18 INFO  TestBase:178 - Screenshot taken
+2017-07-26 11:37:18 INFO  TestBase:178 - Screenshot taken
+2017-07-26 11:37:18 INFO  BootstrapAlertsPageTest:17 - ******************************************BOOTSTRAP ALERTS*********************************************
+2017-07-26 11:37:18 INFO  MainClass:70 - Alert and Models Menu options opened
+2017-07-26 11:37:24 INFO  MainClass:75 - Navigated to Bootstrap Alert Page
+2017-07-26 11:37:24 INFO  MainClass:77 - Selenium Easy - Bootstrap Alerts Demo for Automation
+2017-07-26 11:37:24 INFO  MainClass:9 - The message on the bootstrap button is Autocloseable success message
+2017-07-26 11:37:24 INFO  MainClass:12 - Clicked on bootstrap alert button
+2017-07-26 11:37:34 INFO  MainClass:27 - I'm an autocloseable success message. I will hide in 5 seconds.
+2017-07-26 11:37:34 INFO  BootstrapAlertsPageTest:23 - ==========================================End of verifyBootstrapAlerts Testcases=======================
+2017-07-26 11:37:34 INFO  BootstrapDatePickerPageTest:82 - ******************************************Start verifying verifyTodaysDate Test Case*********************************************
+2017-07-26 11:37:35 INFO  MainBootstrapDatePickerPage:73 - You Clicked on DatePickers Menu
+2017-07-26 11:37:36 INFO  BootstrapDatePickerPageTest:88 - ******************************************Completed verifying verifyTodaysDate Test Case*********************************************
+2017-07-26 11:37:36 INFO  BootstrapDatePickerPageTest:29 - ******************************************Start verifying verifyBootstrapCalendar Test Case*********************************************
+2017-07-26 11:37:37 INFO  MainBootstrapDatePickerPage:73 - You Clicked on DatePickers Menu
+2017-07-26 11:37:37 INFO  MainBootstrapDatePickerPage:90 - You are in the Bootstrap DatePicker Test Case Page
+2017-07-26 11:37:37 INFO  BootstrapDatePickerPageTest:34 - ==========================================Completed verifying verifyBootstrapCalendar Test Case========================================
+2017-07-26 11:37:37 INFO  BootstrapDatePickerPageTest:69 - ******************************************Start verifying verifyDateCleared Test Case*********************************************
+2017-07-26 11:37:37 INFO  MainBootstrapDatePickerPage:73 - You Clicked on DatePickers Menu
+2017-07-26 11:37:39 INFO  MainBootstrapDatePickerPage:140 - Date Entered is 26/07/2017
+2017-07-26 11:37:39 INFO  MainBootstrapDatePickerPage:147 - Date Entered is Cleared
+2017-07-26 11:37:39 INFO  BootstrapDatePickerPageTest:74 - ******************************************Completed verifying verifyDateCleared Test Case*********************************************
+2017-07-26 11:37:39 INFO  BootstrapDatePickerPageTest:42 - ******************************************Start verifying verifyDaysOfWeekIsDisabled Test Case*********************************************
+2017-07-26 11:37:40 INFO  MainBootstrapDatePickerPage:73 - You Clicked on DatePickers Menu
+2017-07-26 11:37:40 INFO  BootstrapDatePickerPageTest:47 - ******************************************Completed verifying verifyDaysOfWeekIsDisabled Test Case*********************************************
+2017-07-26 11:37:40 INFO  BootstrapDatePickerPageTest:56 - ******************************************Start verifying verifyStartingWeek Test Case*********************************************
+2017-07-26 11:37:41 INFO  MainBootstrapDatePickerPage:73 - You Clicked on DatePickers Menu
+2017-07-26 11:37:42 INFO  MainBootstrapDatePickerPage:122 - Week Starts from Monday, value is Mo
+2017-07-26 11:37:42 INFO  BootstrapDatePickerPageTest:61 - ******************************************Completed verifying verifyStartingWeek Test Case*********************************************
+2017-07-26 11:37:52 INFO  TestBase:178 - Screenshot taken
+2017-07-26 11:38:11 INFO  TestBase:178 - Screenshot taken
+2017-07-26 11:38:29 INFO  TestBase:178 - Screenshot taken
+2017-07-26 11:38:32 INFO  JavaScriptAlertPageTest:21 - ******************************JAVASCRIPT ALERT***************************************
+2017-07-26 11:38:33 INFO  MainClass:70 - Alert and Models Menu options opened
+2017-07-26 11:38:33 INFO  MainClass:88 - Navigateed to Javascript Alerts menu page
+2017-07-26 11:38:33 INFO  JavaScriptAlertPageTest:26 - ==============================End of verifyJavaScriptAlertPage TestCase========================
+2017-07-26 11:38:34 INFO  MainClass:70 - Alert and Models Menu options opened
+2017-07-26 11:38:34 INFO  MainClass:88 - Navigateed to Javascript Alerts menu page
+2017-07-26 11:38:34 INFO  MainClass:11 - Clickme button clicked
+2017-07-26 11:38:34 INFO  MainClass:15 - Alert message is-I am an alert box!
+2017-07-26 11:38:39 INFO  JavaScriptAlertPageTest:38 - ==============================End of getAlertMessage Testcase========================
+2017-07-26 11:38:39 INFO  MainClass:70 - Alert and Models Menu options opened
+2017-07-26 11:38:40 INFO  MainClass:88 - Navigateed to Javascript Alerts menu page
+2017-07-26 11:38:40 INFO  MainClass:11 - Clickme button clicked
+2017-07-26 11:38:40 INFO  MainClass:15 - Alert message is-I am an alert box!
+2017-07-26 11:38:50 INFO  MainClass:34 - Alert message accepted
+2017-07-26 11:38:50 INFO  JavaScriptAlertPageTest:51 - ==============================End of acceptAlertMessage Testcase========================
+2017-07-26 11:38:50 INFO  JQueryDatePickerPageTest:27 - ******************************************Start verifying verifyJQueryCalendar Test Case*********************************************
+2017-07-26 11:38:50 INFO  MainJQueryDatePickerPage:59 - You Clicked on DatePickers Menu
+2017-07-26 11:38:53 INFO  MainJQueryDatePickerPage:80 - You are in the JQuery DatePicker Page
+2017-07-26 11:38:53 INFO  JQueryDatePickerPageTest:34 - ==========================================Completed verifying verifyJQueryCalendar Test Case========================================
+2017-07-26 11:38:53 INFO  JQueryDatePickerPageTest:40 - ******************************************Start verifying verifyJQueryCalendarStartAndEndDates Test Case*********************************************
+2017-07-26 11:38:53 INFO  MainJQueryDatePickerPage:59 - You Clicked on DatePickers Menu
+2017-07-26 11:38:56 INFO  JQueryDatePickerPageTest:47 - ==========================================Completed verifying verifyJQueryCalendarStartAndEndDates Test Case========================================
+2017-07-26 11:38:56 INFO  MultipleSelectDropdownListPageTest:17 - *******************************MULTIPLE SELECT DROPDOWN LIST******************************
+2017-07-26 11:38:56 INFO  MainClass:46 - InputFormLInk is clicked
+2017-07-26 11:38:57 INFO  MainClass:63 - Select Dropdown List Menu selected
+2017-07-26 11:39:09 INFO  MainClass:24 - Multiple optios are selected
+2017-07-26 11:39:09 INFO  MainClass:26 - First Selcted option is New York
+2017-07-26 11:39:09 INFO  MainClass:31 - All selected option are:
+2017-07-26 11:39:09 INFO  MainClass:37 - New York
+2017-07-26 11:39:09 INFO  MainClass:37 - Ohio
+2017-07-26 11:39:09 INFO  MainClass:37 - Texas
+2017-07-26 11:39:09 INFO  MainClass:37 - Pennsylvania
+2017-07-26 11:39:09 INFO  MainClass:37 - Washington
+2017-07-26 11:39:09 INFO  MultipleSelectDropdownListPageTest:22 - ===============================End of selectMultipleOption TestCase============================
+2017-07-26 11:39:10 INFO  MainClass:46 - InputFormLInk is clicked
+2017-07-26 11:39:10 INFO  MainClass:63 - Select Dropdown List Menu selected
+2017-07-26 11:39:10 INFO  MainClass:46 - The options available in list box are:
+2017-07-26 11:39:10 INFO  MainClass:50 - California
+2017-07-26 11:39:10 INFO  MainClass:50 - Florida
+2017-07-26 11:39:10 INFO  MainClass:50 - New Jersey
+2017-07-26 11:39:10 INFO  MainClass:50 - New York
+2017-07-26 11:39:10 INFO  MainClass:50 - Ohio
+2017-07-26 11:39:10 INFO  MainClass:50 - Texas
+2017-07-26 11:39:10 INFO  MainClass:50 - Pennsylvania
+2017-07-26 11:39:10 INFO  MainClass:50 - Washington
+2017-07-26 11:39:10 INFO  MultipleSelectDropdownListPageTest:32 - ===============================End of getAllOptionsInlistBox TestCase============================
+2017-07-26 11:39:11 INFO  MainClass:46 - InputFormLInk is clicked
+2017-07-26 11:39:11 INFO  MainClass:63 - Select Dropdown List Menu selected
+2017-07-26 11:39:23 INFO  MainClass:24 - Multiple optios are selected
+2017-07-26 11:39:23 INFO  MainClass:26 - First Selcted option is New York
+2017-07-26 11:39:23 INFO  MainClass:31 - All selected option are:
+2017-07-26 11:39:23 INFO  MainClass:37 - New York
+2017-07-26 11:39:23 INFO  MainClass:37 - Ohio
+2017-07-26 11:39:23 INFO  MainClass:37 - Texas
+2017-07-26 11:39:23 INFO  MainClass:37 - Pennsylvania
+2017-07-26 11:39:23 INFO  MainClass:37 - Washington
+2017-07-26 11:39:23 INFO  MultipleSelectDropdownListPageTest:43 - ===============================End of getAllSelectedOptions TestCase============================
+2017-07-26 11:39:23 INFO  MultiSelectCheckBoxPageTest:21 - ********************************CHECKBOXDEMO-MULTISELECTCHECKBOX*****************************
+2017-07-26 11:39:23 INFO  MainClass:46 - InputFormLInk is clicked
+2017-07-26 11:39:24 INFO  MainClass:52 - CheckBox Demo Link is clicked
+2017-07-26 11:39:24 INFO  MainClass:16 - All the options selected
+2017-07-26 11:39:24 INFO  MultiSelectCheckBoxPageTest:26 - =============================End Of verifyCheckAllButtonClick TestCase===========================
+2017-07-26 11:39:25 INFO  MainClass:46 - InputFormLInk is clicked
+2017-07-26 11:39:25 INFO  MainClass:52 - CheckBox Demo Link is clicked
+2017-07-26 11:39:25 INFO  MainClass:16 - All the options selected
+2017-07-26 11:39:25 INFO  MainClass:39 - label is Uncheck All
+2017-07-26 11:39:25 INFO  MainClass:42 - Button label Check All got Changed to Uncheck All.The actual value on the button is Uncheck All
+2017-07-26 11:39:25 INFO  MultiSelectCheckBoxPageTest:36 - =============================End Of verifyButtonLabel TestCase-Button Label Changed to Uncheck All after selecting all options===========================
+2017-07-26 11:39:26 INFO  MainClass:46 - InputFormLInk is clicked
+2017-07-26 11:39:26 INFO  MainClass:52 - CheckBox Demo Link is clicked
+2017-07-26 11:39:26 INFO  MainClass:16 - All the options selected
+2017-07-26 11:39:26 INFO  MainClass:52 - one checkbox deselected
+2017-07-26 11:39:27 INFO  MainClass:55 - actual text on the button is Check All
+2017-07-26 11:39:27 INFO  MainClass:58 - Button label Uncheck All got Changed to Check All after deselcting one option.The actual label is Check All
+2017-07-26 11:39:27 INFO  MultiSelectCheckBoxPageTest:47 - =============================End Of verifyBUttonLabelAfterDeselectOneOption TestCase-Button Label Changed to Check All after selecting all options=======
+2017-07-26 11:39:27 INFO  MainClass:46 - InputFormLInk is clicked
+2017-07-26 11:39:27 INFO  MainClass:52 - CheckBox Demo Link is clicked
+2017-07-26 11:39:54 INFO  MainClass:32 - All options selected
+2017-07-26 11:39:54 INFO  MainClass:39 - label is Check All
+2017-07-26 11:39:54 INFO  MainClass:46 - Button label Check All did not Changed to Uncheck All.The actual value on the button is Check All
+2017-07-26 11:39:56 INFO  MainJQueryDropDownPage:72 - You are in JQuery Select Dropdown Page
+2017-07-26 11:39:56 INFO  Selenium_Easy_JQuery_DropDownTest:121 - ======= Start Execution of DropDownWithDisabledValues test case =======
+2017-07-26 11:39:56 INFO  Selenium_Easy_JQuery_DropDownTest:141 - ======= Finished Execution of DropDownWithDisabledValues test case =======
+2017-07-26 11:39:57 INFO  MainJQueryDropDownPage:72 - You are in JQuery Select Dropdown Page
+2017-07-26 11:39:57 INFO  Selenium_Easy_JQuery_DropDownTest:91 - ======= Start Multi Select State TestCase Execution =======
+2017-07-26 11:39:57 INFO  Selenium_Easy_JQuery_DropDownTest:112 - ======= Multi Select State TestCase Execution =======
+2017-07-26 11:39:58 INFO  MainJQueryDropDownPage:72 - You are in JQuery Select Dropdown Page
+2017-07-26 11:39:58 INFO  Selenium_Easy_JQuery_DropDownTest:176 - ****** Start Executing VerifyDropdownWithCategoryRelatedOptions *****
+2017-07-26 11:39:59 INFO  MainJQueryDropDownPage:72 - You are in JQuery Select Dropdown Page
+2017-07-26 11:40:18 INFO  Selenium_Easy_JQuery_DropDownTest:197 - ****** Completed Executing VerifyDropdownWithCategoryRelatedOptions *****
+2017-07-26 11:40:18 INFO  MainJQueryDropDownPage:72 - You are in JQuery Select Dropdown Page
+2017-07-26 11:40:19 INFO  Selenium_Easy_JQuery_DropDownTest:71 - Hong Kong
+2017-07-26 11:40:19 INFO  Selenium_Easy_JQuery_DropDownTest:74 - Selected Country is: Hong Kong
+2017-07-26 11:40:19 INFO  Selenium_Easy_JQuery_DropDownTest:80 - ======= Finished Verifying Country Selected =======
+2017-07-26 11:40:20 INFO  MainJQueryDropDownPage:72 - You are in JQuery Select Dropdown Page
+2017-07-26 11:40:20 INFO  Selenium_Easy_JQuery_DropDownTest:149 - ======= Start Execution of DropDownWithDisabledValues test case =======
+2017-07-26 11:40:20 INFO  SingleCheckBoxPageTest:22 - ************************************CHECKBOX RELATED TESTCASES-SINGLESELECTCHECKBOX**************************************
+2017-07-26 11:40:20 INFO  MainClass:12 - InputFormLInk is clicked
+2017-07-26 11:40:21 INFO  MainClass:18 - CheckBox Demo Link is clicked
+2017-07-26 11:40:21 INFO  MainClass:39 - Single select Checkbox Checked
+2017-07-26 11:40:21 INFO  MainClass:50 - Verified and found Checkbox selected
+2017-07-26 11:40:21 INFO  SingleCheckBoxPageTest:26 - =====================================End of checkSingleSelectCheckbox Testcase====================================
+2017-07-26 11:40:21 INFO  MainClass:12 - InputFormLInk is clicked
+2017-07-26 11:40:22 INFO  MainClass:18 - CheckBox Demo Link is clicked
+2017-07-26 11:40:22 INFO  MainClass:39 - Single select Checkbox Checked
+2017-07-26 11:40:22 INFO  MainClass:50 - Verified and found Checkbox selected
+2017-07-26 11:40:22 INFO  MainClass:24 - Actual text on the page is This would be a basic example to start with checkboxes using selenium.
+2017-07-26 11:40:22 INFO  MainClass:27 - Navigated to Checkbox demo page
+2017-07-26 11:40:22 INFO  SingleCheckBoxPageTest:38 - =====================================End of VerifyCheckbox DemoPage Testcase====================================
+2017-07-26 11:40:22 INFO  MainClass:12 - InputFormLInk is clicked
+2017-07-26 11:40:23 INFO  MainClass:18 - CheckBox Demo Link is clicked
+2017-07-26 11:40:23 INFO  MainClass:39 - Single select Checkbox Checked
+2017-07-26 11:40:23 INFO  MainClass:50 - Verified and found Checkbox selected
+2017-07-26 11:40:23 INFO  MainClass:66 - The expectedmessage is same as Success - Check box is checked
+2017-07-26 11:40:23 INFO  SingleCheckBoxPageTest:50 - =====================================End of verifySuccessMessage Testcase====================================
+2017-07-26 11:40:23 INFO  MainClass:46 - InputFormLInk is clicked
+2017-07-26 11:40:24 INFO  MainClass:63 - Select Dropdown List Menu selected
+2017-07-26 11:40:24 INFO  MainClass:12 - Actula title of the page is This would be your first example on select dropd down list to with Selenium.
+2017-07-26 11:40:24 INFO  MainClass:15 - Navigated to Select dropdown list demo page
+2017-07-26 11:40:24 INFO  SingleSelectDropdownListPageTest:24 - =====================================End of verifySelectDropdownListPage Testcase====================================
+2017-07-26 11:40:24 INFO  SingleSelectDropdownListPageTest:31 - ***************************************SingleSelectDropdownList related Testcase**************************
+2017-07-26 11:40:24 INFO  MainClass:46 - InputFormLInk is clicked
+2017-07-26 11:40:24 INFO  MainClass:63 - Select Dropdown List Menu selected
+2017-07-26 11:40:25 INFO  MainClass:26 - Day Selected
+2017-07-26 11:40:25 INFO  MainClass:31 - Expected Text is matching with the selected Option.The Selected Option is Tuesday
+2017-07-26 11:40:25 INFO  SingleSelectDropdownListPageTest:36 - =====================================End of SelectDay Testcase====================================
+2017-07-26 11:40:25 INFO  MainClass:46 - InputFormLInk is clicked
+2017-07-26 11:40:25 INFO  MainClass:63 - Select Dropdown List Menu selected
+2017-07-26 11:40:26 INFO  MainClass:26 - Day Selected
+2017-07-26 11:40:26 INFO  MainClass:31 - Expected Text is matching with the selected Option.The Selected Option is Tuesday
+2017-07-26 11:40:26 INFO  MainClass:45 - success message is Day selected :- Tuesday
+2017-07-26 11:40:26 INFO  MainClass:48 - Tuesday got selected sucessfully
+2017-07-26 11:40:26 INFO  SingleSelectDropdownListPageTest:48 - =================================End of verfy Success Message testcase===================
+2017-07-26 11:40:26 INFO  TestBase:17 - Scrolled Down
+2017-07-26 11:40:26 INFO  TestBase:40 - Table clicked
+2017-07-26 11:40:27 INFO  TestBase:49 - Table Search Data Clicked
+2017-07-26 11:40:31 INFO  TestBase:67 - Entered data in the first search text box
+2017-07-26 11:40:31 INFO  TestBase:80 - Filters Icon clicking
+2017-07-26 11:40:33 INFO  TestBase:17 - Scrolled Down
+2017-07-26 11:40:36 INFO  TestBase:97 - enter the number to filter
+2017-07-26 11:40:38 INFO  TestBase:113 - Enter username filter
+2017-07-26 11:40:41 INFO  TestBase:129 - Enter first name filter
+2017-07-26 11:40:43 INFO  TestBase:145 - Enter last name filter

@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>41/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>33/4/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Jul 24 23:56:46 IST 2017</td>
+<td>Started on:</td><td>Wed Jul 26 11:36:36 IST 2017</td>
 </tr>
-<tr><td>Total time:</td><td>198 seconds (198250 ms)</td>
+<tr><td>Total time:</td><td>247 seconds (247158 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,334 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.automation.testcases.InputFormSubmitPageTest.enterInputFormDetails()'><b>enterInputFormDetails</b><br>Test class: com.automation.testcases.InputFormSubmitPageTest<br>Parameters: firstName1, 10/12/16, 1email@email.com, 9008001242, #163, FirstFlr, Doddanekundi, Bangalore, California, 12345, This is Project Description1</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@class=&apos;col-md-4&apos;]/button[@type=&apos;submitt&apos;]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;HIBAIL56712&apos;, ip: &apos;10.91.232.71&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_141&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\bbanduch\AppData\Local\Temp\rust_mozprofile.hPd7OcVpopxB, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=13604.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 1a6c4aaa-5eb0-455a-8c5b-b86e0db50400
+*** Element info: {Using=xpath, value=//div[@class=&apos;col-md-4&apos;]/button[@type=&apos;submitt&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.automation.pageobjects.InputFormSubmitPage.enterInputFormDetails(InputFormSubmitPage.java:126)
+	at com.automation.testcases.InputFormSubmitPageTest.enterInputFormDetails(InputFormSubmitPageTest.java:66)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace961983234", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace961983234'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@class=&apos;col-md-4&apos;]/button[@type=&apos;submitt&apos;]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;HIBAIL56712&apos;, ip: &apos;10.91.232.71&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_141&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\bbanduch\AppData\Local\Temp\rust_mozprofile.hPd7OcVpopxB, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=13604.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 1a6c4aaa-5eb0-455a-8c5b-b86e0db50400
+*** Element info: {Using=xpath, value=//div[@class=&apos;col-md-4&apos;]/button[@type=&apos;submitt&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.automation.pageobjects.InputFormSubmitPage.enterInputFormDetails(InputFormSubmitPage.java:126)
+	at com.automation.testcases.InputFormSubmitPageTest.enterInputFormDetails(InputFormSubmitPageTest.java:66)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>14</td>
+<td>com.automation.testcases.InputFormSubmitPageTest@5a61f5df</td></tr>
+<tr>
+<td title='com.automation.testcases.InputFormSubmitPageTest.enterInputFormDetails()'><b>enterInputFormDetails</b><br>Test class: com.automation.testcases.InputFormSubmitPageTest<br>Parameters: firstName2, lastName2, 1email@email.com, (900)800-1243, #163, FirstFlr, Doddanekundi, Bangalore, Delaware, 12346, This is Project Description2</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@class=&apos;col-md-4&apos;]/button[@type=&apos;submitt&apos;]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;HIBAIL56712&apos;, ip: &apos;10.91.232.71&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_141&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\bbanduch\AppData\Local\Temp\rust_mozprofile.hPd7OcVpopxB, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=13604.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 1a6c4aaa-5eb0-455a-8c5b-b86e0db50400
+*** Element info: {Using=xpath, value=//div[@class=&apos;col-md-4&apos;]/button[@type=&apos;submitt&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.automation.pageobjects.InputFormSubmitPage.enterInputFormDetails(InputFormSubmitPage.java:126)
+	at com.automation.testcases.InputFormSubmitPageTest.enterInputFormDetails(InputFormSubmitPageTest.java:66)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1273879638", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1273879638'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@class=&apos;col-md-4&apos;]/button[@type=&apos;submitt&apos;]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;HIBAIL56712&apos;, ip: &apos;10.91.232.71&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_141&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\bbanduch\AppData\Local\Temp\rust_mozprofile.hPd7OcVpopxB, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=13604.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 1a6c4aaa-5eb0-455a-8c5b-b86e0db50400
+*** Element info: {Using=xpath, value=//div[@class=&apos;col-md-4&apos;]/button[@type=&apos;submitt&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.automation.pageobjects.InputFormSubmitPage.enterInputFormDetails(InputFormSubmitPage.java:126)
+	at com.automation.testcases.InputFormSubmitPageTest.enterInputFormDetails(InputFormSubmitPageTest.java:66)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>13</td>
+<td>com.automation.testcases.InputFormSubmitPageTest@5a61f5df</td></tr>
+<tr>
+<td title='com.automation.testcases.AjaxFormSubmitPageTest.submitAjaxForm()'><b>submitAjaxForm</b><br>Test class: com.automation.testcases.AjaxFormSubmitPageTest</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@id=&apos;btn-submit&apos; and @value=&apos;submitt&apos;]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;HIBAIL56712&apos;, ip: &apos;10.91.232.71&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_141&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\bbanduch\AppData\Local\Temp\rust_mozprofile.hPd7OcVpopxB, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=13604.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 1a6c4aaa-5eb0-455a-8c5b-b86e0db50400
+*** Element info: {Using=xpath, value=//input[@id=&apos;btn-submit&apos; and @value=&apos;submitt&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.automation.pageobjects.AjaxFormSubmitPage.enterAjaxFormDetails(AjaxFormSubmitPage.java:52)
+	at com.automation.testcases.AjaxFormSubmitPageTest.submitAjaxForm(AjaxFormSubmitPageTest.java:69)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace452364286", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace452364286'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@id=&apos;btn-submit&apos; and @value=&apos;submitt&apos;]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;HIBAIL56712&apos;, ip: &apos;10.91.232.71&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_141&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\bbanduch\AppData\Local\Temp\rust_mozprofile.hPd7OcVpopxB, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=13604.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 1a6c4aaa-5eb0-455a-8c5b-b86e0db50400
+*** Element info: {Using=xpath, value=//input[@id=&apos;btn-submit&apos; and @value=&apos;submitt&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.automation.pageobjects.AjaxFormSubmitPage.enterAjaxFormDetails(AjaxFormSubmitPage.java:52)
+	at com.automation.testcases.AjaxFormSubmitPageTest.submitAjaxForm(AjaxFormSubmitPageTest.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>13</td>
+<td>com.automation.testcases.AjaxFormSubmitPageTest@36f6e879</td></tr>
+<tr>
+<td title='com.automation.testcases.InputFormSubmitPageTest.validatingFieldsData()'><b>validatingFieldsData</b><br>Test class: com.automation.testcases.InputFormSubmitPageTest</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@class=&apos;col-md-4&apos;]/button[@type=&apos;submitt&apos;]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;HIBAIL56712&apos;, ip: &apos;10.91.232.71&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_141&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\bbanduch\AppData\Local\Temp\rust_mozprofile.hPd7OcVpopxB, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=13604.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 1a6c4aaa-5eb0-455a-8c5b-b86e0db50400
+*** Element info: {Using=xpath, value=//div[@class=&apos;col-md-4&apos;]/button[@type=&apos;submitt&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.automation.pageobjects.InputFormSubmitPage.inputFormSubmitInValidValidations(InputFormSubmitPage.java:138)
+	at com.automation.testcases.InputFormSubmitPageTest.validatingFieldsData(InputFormSubmitPageTest.java:58)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1123321137", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1123321137'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@class=&apos;col-md-4&apos;]/button[@type=&apos;submitt&apos;]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;HIBAIL56712&apos;, ip: &apos;10.91.232.71&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_141&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\bbanduch\AppData\Local\Temp\rust_mozprofile.hPd7OcVpopxB, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=13604.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 1a6c4aaa-5eb0-455a-8c5b-b86e0db50400
+*** Element info: {Using=xpath, value=//div[@class=&apos;col-md-4&apos;]/button[@type=&apos;submitt&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.automation.pageobjects.InputFormSubmitPage.inputFormSubmitInValidValidations(InputFormSubmitPage.java:138)
+	at com.automation.testcases.InputFormSubmitPageTest.validatingFieldsData(InputFormSubmitPageTest.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>10</td>
+<td>com.automation.testcases.InputFormSubmitPageTest@5a61f5df</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -77,208 +405,168 @@ function toggleAllBoxes() {
 <tr>
 <td title='com.automation.testcases.Selenium_Easy_JQuery_DropDownTest.DropDownWithTerritoryEnabled()'><b>DropDownWithTerritoryEnabled</b><br>Test class: com.automation.testcases.Selenium_Easy_JQuery_DropDownTest</td>
 <td></td>
-<td>1</td>
-<td>com.automation.testcases.Selenium_Easy_JQuery_DropDownTest@dc24521</td></tr>
+<td>2</td>
+<td>com.automation.testcases.Selenium_Easy_JQuery_DropDownTest@3551a94</td></tr>
 <tr>
 <td title='com.automation.testcases.Selenium_Easy_JQuery_DropDownTest.MultiSelectStates()'><b>MultiSelectStates</b><br>Test class: com.automation.testcases.Selenium_Easy_JQuery_DropDownTest</td>
 <td></td>
-<td>0</td>
-<td>com.automation.testcases.Selenium_Easy_JQuery_DropDownTest@dc24521</td></tr>
+<td>1</td>
+<td>com.automation.testcases.Selenium_Easy_JQuery_DropDownTest@3551a94</td></tr>
 <tr>
 <td title='com.automation.testcases.SingleSelectDropdownListPageTest.SelectDay()'><b>SelectDay</b><br>Test class: com.automation.testcases.SingleSelectDropdownListPageTest</td>
 <td></td>
 <td>0</td>
-<td>com.automation.testcases.SingleSelectDropdownListPageTest@7e0b0338</td></tr>
+<td>com.automation.testcases.SingleSelectDropdownListPageTest@35fb3008</td></tr>
 <tr>
 <td title='com.automation.testcases.Selenium_Easy_JQuery_DropDownTest.ValidateJQuerySelectDropdownPage()'><b>ValidateJQuerySelectDropdownPage</b><br>Test class: com.automation.testcases.Selenium_Easy_JQuery_DropDownTest</td>
 <td></td>
 <td>0</td>
-<td>com.automation.testcases.Selenium_Easy_JQuery_DropDownTest@dc24521</td></tr>
+<td>com.automation.testcases.Selenium_Easy_JQuery_DropDownTest@3551a94</td></tr>
 <tr>
 <td title='com.automation.testcases.Selenium_Easy_JQuery_DropDownTest.VerifyDropdownWithCategoryRelatedOptions()'><b>VerifyDropdownWithCategoryRelatedOptions</b><br>Test class: com.automation.testcases.Selenium_Easy_JQuery_DropDownTest</td>
 <td></td>
-<td>18</td>
-<td>com.automation.testcases.Selenium_Easy_JQuery_DropDownTest@dc24521</td></tr>
+<td>19</td>
+<td>com.automation.testcases.Selenium_Easy_JQuery_DropDownTest@3551a94</td></tr>
 <tr>
 <td title='com.automation.testcases.Selenium_Easy_JQuery_DropDownTest.VerifySearchAndSelectCountry()'><b>VerifySearchAndSelectCountry</b><br>Test class: com.automation.testcases.Selenium_Easy_JQuery_DropDownTest</td>
 <td></td>
-<td>0</td>
-<td>com.automation.testcases.Selenium_Easy_JQuery_DropDownTest@dc24521</td></tr>
+<td>1</td>
+<td>com.automation.testcases.Selenium_Easy_JQuery_DropDownTest@3551a94</td></tr>
 <tr>
 <td title='com.automation.testcases.Selenium_Easy_JQuery_DropDownTest.VerifyTerritoryDisabled()'><b>VerifyTerritoryDisabled</b><br>Test class: com.automation.testcases.Selenium_Easy_JQuery_DropDownTest</td>
 <td></td>
 <td>0</td>
-<td>com.automation.testcases.Selenium_Easy_JQuery_DropDownTest@dc24521</td></tr>
+<td>com.automation.testcases.Selenium_Easy_JQuery_DropDownTest@3551a94</td></tr>
 <tr>
 <td title='com.automation.testcases.BootstrapDatePickerPageTest.VerifyTodaysDate()'><b>VerifyTodaysDate</b><br>Test class: com.automation.testcases.BootstrapDatePickerPageTest</td>
 <td></td>
 <td>1</td>
-<td>com.automation.testcases.BootstrapDatePickerPageTest@192b07fd</td></tr>
+<td>com.automation.testcases.BootstrapDatePickerPageTest@531be3c5</td></tr>
 <tr>
 <td title='com.automation.testcases.JavaScriptAlertPageTest.acceptAlertMessage()'><b>acceptAlertMessage</b><br>Test class: com.automation.testcases.JavaScriptAlertPageTest</td>
 <td></td>
 <td>10</td>
-<td>com.automation.testcases.JavaScriptAlertPageTest@64bfbc86</td></tr>
+<td>com.automation.testcases.JavaScriptAlertPageTest@54a097cc</td></tr>
+<tr>
+<td title='com.automation.testcases.AjaxFormSubmitPageTest.ajaxSubmitPageLaunch()'><b>ajaxSubmitPageLaunch</b><br>Test class: com.automation.testcases.AjaxFormSubmitPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.automation.testcases.AjaxFormSubmitPageTest@36f6e879</td></tr>
 <tr>
 <td title='com.automation.testcases.SingleCheckBoxPageTest.checkSingleSelectCheckbox()'><b>checkSingleSelectCheckbox</b><br>Test class: com.automation.testcases.SingleCheckBoxPageTest</td>
 <td></td>
-<td>0</td>
-<td>com.automation.testcases.SingleCheckBoxPageTest@6e1ec318</td></tr>
-<tr>
-<td title='com.automation.testcases.InputFormSubmitPageTest.enterInputFormDetails()'><b>enterInputFormDetails</b><br>Test class: com.automation.testcases.InputFormSubmitPageTest<br>Parameters: firstName1, 10/12/16, 1email@email.com, 9008001242, #163, FirstFlr, Doddanekundi, Bangalore, California, 12345, This is Project Description1</td>
-<td></td>
-<td>5</td>
-<td>com.automation.testcases.InputFormSubmitPageTest@49993335</td></tr>
-<tr>
-<td title='com.automation.testcases.InputFormSubmitPageTest.enterInputFormDetails()'><b>enterInputFormDetails</b><br>Test class: com.automation.testcases.InputFormSubmitPageTest<br>Parameters: firstName2, lastName2, 1email@email.com, (900)800-1243, #163, FirstFlr, Doddanekundi, Bangalore, Delaware, 12346, This is Project Description2</td>
-<td></td>
-<td>4</td>
-<td>com.automation.testcases.InputFormSubmitPageTest@49993335</td></tr>
+<td>1</td>
+<td>com.automation.testcases.SingleCheckBoxPageTest@52af6cff</td></tr>
 <tr>
 <td title='com.automation.testcases.JavaScriptAlertPageTest.getAlertMessage()'><b>getAlertMessage</b><br>Test class: com.automation.testcases.JavaScriptAlertPageTest</td>
 <td></td>
 <td>5</td>
-<td>com.automation.testcases.JavaScriptAlertPageTest@64bfbc86</td></tr>
+<td>com.automation.testcases.JavaScriptAlertPageTest@54a097cc</td></tr>
 <tr>
 <td title='com.automation.testcases.MultipleSelectDropdownListPageTest.getAllOptionsInlistBox()'><b>getAllOptionsInlistBox</b><br>Test class: com.automation.testcases.MultipleSelectDropdownListPageTest</td>
 <td></td>
 <td>0</td>
-<td>com.automation.testcases.MultipleSelectDropdownListPageTest@55d56113</td></tr>
+<td>com.automation.testcases.MultipleSelectDropdownListPageTest@6df97b55</td></tr>
 <tr>
 <td title='com.automation.testcases.MultipleSelectDropdownListPageTest.getAllSelectedOptions()'><b>getAllSelectedOptions</b><br>Test class: com.automation.testcases.MultipleSelectDropdownListPageTest</td>
 <td></td>
 <td>12</td>
-<td>com.automation.testcases.MultipleSelectDropdownListPageTest@55d56113</td></tr>
+<td>com.automation.testcases.MultipleSelectDropdownListPageTest@6df97b55</td></tr>
 <tr>
 <td title='com.automation.testcases.MultipleSelectDropdownListPageTest.selectMultipleOption()'><b>selectMultipleOption</b><br>Test class: com.automation.testcases.MultipleSelectDropdownListPageTest</td>
 <td></td>
 <td>13</td>
-<td>com.automation.testcases.MultipleSelectDropdownListPageTest@55d56113</td></tr>
-<tr>
-<td title='com.automation.testcases.RadioButtonsDemoPageTest.validateGroupRadioBtnSelection()'><b>validateGroupRadioBtnSelection</b><br>Test class: com.automation.testcases.RadioButtonsDemoPageTest</td>
-<td></td>
-<td>5</td>
-<td>com.automation.testcases.RadioButtonsDemoPageTest@1e127982</td></tr>
-<tr>
-<td title='com.automation.testcases.RadioButtonsDemoPageTest.validateRadioButtonsDemoPage()'><b>validateRadioButtonsDemoPage</b><br>Test class: com.automation.testcases.RadioButtonsDemoPageTest</td>
-<td></td>
-<td>0</td>
-<td>com.automation.testcases.RadioButtonsDemoPageTest@1e127982</td></tr>
-<tr>
-<td title='com.automation.testcases.SimpleFormDemoPageTest.validateSimpleInputFormPage()'><b>validateSimpleInputFormPage</b><br>Test class: com.automation.testcases.SimpleFormDemoPageTest</td>
-<td></td>
-<td>0</td>
-<td>com.automation.testcases.SimpleFormDemoPageTest@10bdf5e5</td></tr>
-<tr>
-<td title='com.automation.testcases.SimpleFormDemoPageTest.validateSingleInputField()'><b>validateSingleInputField</b><br>Test class: com.automation.testcases.SimpleFormDemoPageTest</td>
-<td></td>
-<td>8</td>
-<td>com.automation.testcases.SimpleFormDemoPageTest@10bdf5e5</td></tr>
-<tr>
-<td title='com.automation.testcases.RadioButtonsDemoPageTest.validateSingleRadioBtnSelection()'><b>validateSingleRadioBtnSelection</b><br>Test class: com.automation.testcases.RadioButtonsDemoPageTest</td>
-<td></td>
-<td>7</td>
-<td>com.automation.testcases.RadioButtonsDemoPageTest@1e127982</td></tr>
-<tr>
-<td title='com.automation.testcases.SimpleFormDemoPageTest.validateTwoInputField()'><b>validateTwoInputField</b><br>Test class: com.automation.testcases.SimpleFormDemoPageTest</td>
-<td></td>
-<td>5</td>
-<td>com.automation.testcases.SimpleFormDemoPageTest@10bdf5e5</td></tr>
+<td>com.automation.testcases.MultipleSelectDropdownListPageTest@6df97b55</td></tr>
 <tr>
 <td title='com.automation.testcases.AjaxFormSubmitPageTest.validatingFieldsData()'><b>validatingFieldsData</b><br>Test class: com.automation.testcases.AjaxFormSubmitPageTest</td>
 <td></td>
-<td>8</td>
-<td>com.automation.testcases.AjaxFormSubmitPageTest@5025a98f</td></tr>
-<tr>
-<td title='com.automation.testcases.InputFormSubmitPageTest.validatingFieldsData()'><b>validatingFieldsData</b><br>Test class: com.automation.testcases.InputFormSubmitPageTest</td>
-<td></td>
-<td>5</td>
-<td>com.automation.testcases.InputFormSubmitPageTest@49993335</td></tr>
+<td>10</td>
+<td>com.automation.testcases.AjaxFormSubmitPageTest@36f6e879</td></tr>
 <tr>
 <td title='com.automation.testcases.MultiSelectCheckBoxPageTest.verifyAllOptionSelect()'><b>verifyAllOptionSelect</b><br>Test class: com.automation.testcases.MultiSelectCheckBoxPageTest</td>
 <td></td>
-<td>26</td>
-<td>com.automation.testcases.MultiSelectCheckBoxPageTest@148080bb</td></tr>
+<td>27</td>
+<td>com.automation.testcases.MultiSelectCheckBoxPageTest@3cbbc1e0</td></tr>
 <tr>
 <td title='com.automation.testcases.MultiSelectCheckBoxPageTest.verifyBUttonLabelAfterDeselectOneOption()'><b>verifyBUttonLabelAfterDeselectOneOption</b><br>Test class: com.automation.testcases.MultiSelectCheckBoxPageTest</td>
 <td></td>
-<td>0</td>
-<td>com.automation.testcases.MultiSelectCheckBoxPageTest@148080bb</td></tr>
+<td>1</td>
+<td>com.automation.testcases.MultiSelectCheckBoxPageTest@3cbbc1e0</td></tr>
 <tr>
 <td title='com.automation.testcases.BootstrapAlertsPageTest.verifyBootstrapAlerts()'><b>verifyBootstrapAlerts</b><br>Test class: com.automation.testcases.BootstrapAlertsPageTest</td>
 <td></td>
-<td>10</td>
-<td>com.automation.testcases.BootstrapAlertsPageTest@20322d26</td></tr>
+<td>16</td>
+<td>com.automation.testcases.BootstrapAlertsPageTest@2d554825</td></tr>
 <tr>
 <td title='com.automation.testcases.BootstrapDatePickerPageTest.verifyBootstrapCalendar()'><b>verifyBootstrapCalendar</b><br>Test class: com.automation.testcases.BootstrapDatePickerPageTest</td>
 <td></td>
 <td>0</td>
-<td>com.automation.testcases.BootstrapDatePickerPageTest@192b07fd</td></tr>
+<td>com.automation.testcases.BootstrapDatePickerPageTest@531be3c5</td></tr>
 <tr>
 <td title='com.automation.testcases.MultiSelectCheckBoxPageTest.verifyButtonLabel()'><b>verifyButtonLabel</b><br>Test class: com.automation.testcases.MultiSelectCheckBoxPageTest</td>
 <td></td>
 <td>0</td>
-<td>com.automation.testcases.MultiSelectCheckBoxPageTest@148080bb</td></tr>
+<td>com.automation.testcases.MultiSelectCheckBoxPageTest@3cbbc1e0</td></tr>
 <tr>
 <td title='com.automation.testcases.MultiSelectCheckBoxPageTest.verifyCheckAllButtonCLick()'><b>verifyCheckAllButtonCLick</b><br>Test class: com.automation.testcases.MultiSelectCheckBoxPageTest</td>
 <td></td>
-<td>0</td>
-<td>com.automation.testcases.MultiSelectCheckBoxPageTest@148080bb</td></tr>
+<td>1</td>
+<td>com.automation.testcases.MultiSelectCheckBoxPageTest@3cbbc1e0</td></tr>
 <tr>
 <td title='com.automation.testcases.SingleCheckBoxPageTest.verifyCheckboxPage()'><b>verifyCheckboxPage</b><br>Test class: com.automation.testcases.SingleCheckBoxPageTest</td>
 <td></td>
 <td>0</td>
-<td>com.automation.testcases.SingleCheckBoxPageTest@6e1ec318</td></tr>
+<td>com.automation.testcases.SingleCheckBoxPageTest@52af6cff</td></tr>
 <tr>
 <td title='com.automation.testcases.BootstrapDatePickerPageTest.verifyDateCleared()'><b>verifyDateCleared</b><br>Test class: com.automation.testcases.BootstrapDatePickerPageTest</td>
 <td></td>
-<td>1</td>
-<td>com.automation.testcases.BootstrapDatePickerPageTest@192b07fd</td></tr>
+<td>2</td>
+<td>com.automation.testcases.BootstrapDatePickerPageTest@531be3c5</td></tr>
 <tr>
 <td title='com.automation.testcases.BootstrapDatePickerPageTest.verifyDaysOfWeekIsDisabled()'><b>verifyDaysOfWeekIsDisabled</b><br>Test class: com.automation.testcases.BootstrapDatePickerPageTest</td>
 <td></td>
 <td>1</td>
-<td>com.automation.testcases.BootstrapDatePickerPageTest@192b07fd</td></tr>
+<td>com.automation.testcases.BootstrapDatePickerPageTest@531be3c5</td></tr>
 <tr>
 <td title='com.automation.testcases.JQueryDatePickerPageTest.verifyJQueryCalendar()'><b>verifyJQueryCalendar</b><br>Test class: com.automation.testcases.JQueryDatePickerPageTest</td>
 <td></td>
-<td>3</td>
-<td>com.automation.testcases.JQueryDatePickerPageTest@64bf3bbf</td></tr>
+<td>2</td>
+<td>com.automation.testcases.JQueryDatePickerPageTest@735b478</td></tr>
 <tr>
 <td title='com.automation.testcases.JQueryDatePickerPageTest.verifyJQueryCalendarStartAndEndDates()'><b>verifyJQueryCalendarStartAndEndDates</b><br>Test class: com.automation.testcases.JQueryDatePickerPageTest</td>
 <td></td>
 <td>3</td>
-<td>com.automation.testcases.JQueryDatePickerPageTest@64bf3bbf</td></tr>
+<td>com.automation.testcases.JQueryDatePickerPageTest@735b478</td></tr>
 <tr>
 <td title='com.automation.testcases.JavaScriptAlertPageTest.verifyJavascriptAlertPage()'><b>verifyJavascriptAlertPage</b><br>Test class: com.automation.testcases.JavaScriptAlertPageTest</td>
 <td></td>
 <td>0</td>
-<td>com.automation.testcases.JavaScriptAlertPageTest@64bfbc86</td></tr>
+<td>com.automation.testcases.JavaScriptAlertPageTest@54a097cc</td></tr>
 <tr>
 <td title='com.automation.testcases.SingleSelectDropdownListPageTest.verifySelectDropdownListDemoPage()'><b>verifySelectDropdownListDemoPage</b><br>Test class: com.automation.testcases.SingleSelectDropdownListPageTest</td>
 <td></td>
 <td>0</td>
-<td>com.automation.testcases.SingleSelectDropdownListPageTest@7e0b0338</td></tr>
+<td>com.automation.testcases.SingleSelectDropdownListPageTest@35fb3008</td></tr>
 <tr>
 <td title='com.automation.testcases.BootstrapDatePickerPageTest.verifyStartingWeek()'><b>verifyStartingWeek</b><br>Test class: com.automation.testcases.BootstrapDatePickerPageTest</td>
 <td></td>
 <td>1</td>
-<td>com.automation.testcases.BootstrapDatePickerPageTest@192b07fd</td></tr>
+<td>com.automation.testcases.BootstrapDatePickerPageTest@531be3c5</td></tr>
 <tr>
 <td title='com.automation.testcases.SingleSelectDropdownListPageTest.verifySuccessMessage()'><b>verifySuccessMessage</b><br>Test class: com.automation.testcases.SingleSelectDropdownListPageTest</td>
 <td></td>
-<td>2</td>
-<td>com.automation.testcases.SingleSelectDropdownListPageTest@7e0b0338</td></tr>
+<td>1</td>
+<td>com.automation.testcases.SingleSelectDropdownListPageTest@35fb3008</td></tr>
 <tr>
 <td title='com.automation.testcases.SingleCheckBoxPageTest.verifySucessMessage()'><b>verifySucessMessage</b><br>Test class: com.automation.testcases.SingleCheckBoxPageTest</td>
 <td></td>
-<td>1</td>
-<td>com.automation.testcases.SingleCheckBoxPageTest@6e1ec318</td></tr>
+<td>0</td>
+<td>com.automation.testcases.SingleCheckBoxPageTest@52af6cff</td></tr>
 <tr>
 <td title='com.automation.testcases.TableDataSearchPageTest.verifyTableDataSearchPage()'><b>verifyTableDataSearchPage</b><br>Test class: com.automation.testcases.TableDataSearchPageTest</td>
 <td></td>
-<td>16</td>
-<td>com.automation.testcases.TableDataSearchPageTest@617faa95</td></tr>
+<td>17</td>
+<td>com.automation.testcases.TableDataSearchPageTest@7225790e</td></tr>
 </table><p>
 </body>
 </html>
