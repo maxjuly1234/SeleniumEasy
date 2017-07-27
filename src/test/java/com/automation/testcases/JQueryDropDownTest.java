@@ -5,14 +5,13 @@ package com.automation.testcases;
 import java.util.List;
 
 import com.automation.base.TestBase;
-import com.automation.pageobjects.MainClass;
 import com.automation.pageobjects.JQueryDropDownPage;
-import com.automation.pageobjects.*;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
@@ -27,21 +26,25 @@ public class JQueryDropDownTest extends TestBase{
 	
 		
 	public static final Logger APP_LOGS=Logger.getLogger(JQueryDropDownTest.class.getName());
+	
 	JQueryDropDownPage mainjquerydropdown;
 	
-	/*@BeforeClass
+	@BeforeClass
 	public void setUp() throws Throwable{
 			
-	TestBase.initialization();
-		
-	}*/
+	//initialization();
+	mainjquerydropdown = PageFactory.initElements(driver, JQueryDropDownPage.class);
+	System.out.println("Objects are created");
+	mainjquerydropdown.NavigateToSeleniumEasyTest();
+	}
 	
 	// ******* Navigating to JQuery Select Drop down Page and validate you are in the correct page ******* //
 	
 	@Test
 	public  void ValidateJQuerySelectDropdownPage(){
 		
-		mainjquerydropdown = new JQueryDropDownPage(driver);
+		//mainjquerydropdown = new JQueryDropDownPage(driver);
+		//mainjquerydropdown.NavigateToSeleniumEasyTest();
 		
 		mainjquerydropdown.NavigateToJQuerySelectDropdown();
 	
@@ -62,7 +65,7 @@ public class JQueryDropDownTest extends TestBase{
 	@Test
 	public void VerifySearchAndSelectCountry(){
 		
-		mainjquerydropdown = new JQueryDropDownPage(driver);
+		//mainjquerydropdown = new JQueryDropDownPage(driver);
 		mainjquerydropdown.NavigateToJQuerySelectDropdown();
 		
 		mainjquerydropdown.SearchAndSelectCountry();
@@ -85,7 +88,7 @@ public class JQueryDropDownTest extends TestBase{
 	public void MultiSelectStates() throws Exception{
 		
 		
-		mainjquerydropdown = new JQueryDropDownPage(driver);
+		//mainjquerydropdown = new JQueryDropDownPage(driver);
 		mainjquerydropdown.NavigateToJQuerySelectDropdown();
 		
 		APP_LOGS.info("======= Start Multi Select State TestCase Execution =======");
@@ -116,7 +119,7 @@ public class JQueryDropDownTest extends TestBase{
 	@Test
 	public void DropDownWithTerritoryEnabled() throws InterruptedException{
 		
-		mainjquerydropdown = new JQueryDropDownPage(driver);
+		//mainjquerydropdown = new JQueryDropDownPage(driver);
 		mainjquerydropdown.NavigateToJQuerySelectDropdown();
 		APP_LOGS.info("======= Start Execution of DropDownWithDisabledValues test case =======");
 		System.out.println("******************************");
@@ -144,7 +147,7 @@ public class JQueryDropDownTest extends TestBase{
 	@Test
 	public void VerifyTerritoryDisabled(){
 		
-		mainjquerydropdown = new JQueryDropDownPage(driver);
+		//mainjquerydropdown = new JQueryDropDownPage(driver);
 		mainjquerydropdown.NavigateToJQuerySelectDropdown();
 		APP_LOGS.info("======= Start Execution of DropDownWithDisabledValues test case =======");
 		
@@ -171,7 +174,7 @@ public class JQueryDropDownTest extends TestBase{
 	@Test
 	public void VerifyDropdownWithCategoryRelatedOptions() throws InterruptedException{
 		
-		mainjquerydropdown = new JQueryDropDownPage(driver);
+		//mainjquerydropdown = new JQueryDropDownPage(driver);
 		
 		APP_LOGS.info("****** Start Executing VerifyDropdownWithCategoryRelatedOptions *****");
 		mainjquerydropdown.NavigateToJQuerySelectDropdown();
@@ -197,8 +200,8 @@ public class JQueryDropDownTest extends TestBase{
 		APP_LOGS.info("****** Completed Executing VerifyDropdownWithCategoryRelatedOptions *****");
 	}
 	
-	/*@AfterClass
+	@AfterClass
 	public void endTest(){
 		driver.quit();
-	}*/
+	}
 }

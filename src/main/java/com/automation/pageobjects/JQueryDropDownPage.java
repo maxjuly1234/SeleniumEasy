@@ -31,6 +31,8 @@ public class JQueryDropDownPage extends TestBase{
 	public static Select sel=null;
 	public static final Logger APP_LOGS=Logger.getLogger(JQueryDropDownPage.class.getName());
 	
+	@FindBy(xpath="//*[@id='block-block-57']/div/div/a")
+	WebElement seleniumeasytest_link;
 	
 	@FindBy(xpath="//*[@id='treemenu']/li/ul/li[1]/a")
 	WebElement inputformlink;
@@ -50,8 +52,13 @@ public class JQueryDropDownPage extends TestBase{
 	WebDriver driver;
 	
 	public JQueryDropDownPage(WebDriver driver){
-		PageFactory.initElements(driver, this);
 		
+		this.driver=driver;
+		
+	}
+	
+	public void NavigateToSeleniumEasyTest(){
+		seleniumeasytest_link.click();
 	}
 
 	public void inputForm()
