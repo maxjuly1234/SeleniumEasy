@@ -33,6 +33,7 @@ public class InputFormSubmitPageTest extends TestBase {
 	String pageName = "InputFormSubmit";
 	InputFormSubmitPage inputformSubmit;
 
+	
 	@Test(priority=1)
 	public void inputFormSubmitLaunch() {
 		try {
@@ -58,7 +59,7 @@ public class InputFormSubmitPageTest extends TestBase {
 		inputformSubmit.inputFormSubmitInValidValidations();
 	}
 
-	@Test(priority=2,dataProvider = "DataSupply")
+	@Test(priority=3,dataProvider = "DataSupply")
 	public void enterInputFormDetails(String string1, String string2,
 			String string3, String string4, String string5, String string6,
 			String string7, String string8, String string9) throws Throwable {
