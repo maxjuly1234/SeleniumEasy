@@ -23,6 +23,7 @@ public class AjaxFormSubmitPage extends TestBase{
 	public AjaxFormSubmitPage(WebDriver driver) {
 		super(driver);
 	}
+	@FindBy(how=How.XPATH, using="//*[@id='block-block-57']/div/div/a") WebElement demowebsite;
 	@FindBy(how=How.XPATH, using="//*[@id='treemenu']/li/ul/li[1]/a") WebElement inputformlink;	
 	@FindBy(how=How.XPATH, using="//*[@id='treemenu']/li/ul/li[1]/ul/li[6]") WebElement ajaxFormSubmit;
 	@FindBy(how=How.XPATH, using="//*[@id='title' and @type='text']") WebElement name;	
@@ -36,11 +37,38 @@ public class AjaxFormSubmitPage extends TestBase{
 
 	public void ajaxFormLaunc() {
 		
+		String pageName= driver.getTitle();
+		String mainPageTitle="Selenium Easy | Complete Automation Testing Tutorials";
+		String demoWebSiteTitle="Selenium Easy - Best Demo website to practice Selenium Webdriver Online";
+	   
+	   	 
+	   	 if(pageName.equals(mainPageTitle))
+	   	 {
+	   		demowebsite.click();
+	   		inputformlink.click();
+		   	ajaxFormSubmit.click();
+		   	
+		   	System.out.println("Control is in this page ---->>"+driver.getTitle());
+		   	
+		   	test.log(Status.INFO,"you are in Ajax page");
+		   	
+			}
+	   	 else if(pageName.equals(demoWebSiteTitle)){
+	   		inputformlink.click();
+	   		ajaxFormSubmit.click();
+	   		System.out.println("Control is in this page ---->>"+driver.getTitle());
+	   		test.log(Status.INFO,"you are in Ajax page");
+	   		 
+	   	 }else test.log(Status.FAIL, "You are in Wrong Page");
 		
-		inputformlink.click();
-		ajaxFormSubmit.click();
-		
+			
+	   	 
+	   	 // Check the page here
+	   	 
+	   	 
+	   	 
 		APP_LOGS.info("************AjaxForm is launched***********");
+		test.log(Status.INFO,"you are in Ajax page");
 
 	}
 

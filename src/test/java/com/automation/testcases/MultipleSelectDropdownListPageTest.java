@@ -11,7 +11,7 @@ import com.automation.pageobjects.MultipleSelectDropdownListDemoPage;
 public class MultipleSelectDropdownListPageTest extends MultipleSelectDropdownListDemoPage{
 	public static final Logger APP_LOGS=Logger.getLogger(MultipleSelectDropdownListPageTest.class.getName());
 	
-  @Test
+  @Test(priority=1)
   public void selectMultipleOption() throws InterruptedException {
 	  System.out.println();
 	  APP_LOGS.info("*******************************MULTIPLE SELECT DROPDOWN LIST******************************");
@@ -22,7 +22,7 @@ public class MultipleSelectDropdownListPageTest extends MultipleSelectDropdownLi
 	  APP_LOGS.info("===============================End of selectMultipleOption TestCase============================");
 	  System.out.println();
   }
-  @Test(priority=1)
+  @Test(priority=2)
   public void getAllOptionsInlistBox()
   {
 	  System.out.println();
@@ -33,7 +33,7 @@ public class MultipleSelectDropdownListPageTest extends MultipleSelectDropdownLi
 	  System.out.println();
   }
 
-  @Test(priority=2)
+  @Test(priority=3)
   public void getAllSelectedOptions() throws InterruptedException
   {
 	  System.out.println();

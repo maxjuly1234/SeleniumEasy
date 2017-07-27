@@ -1,9 +1,10 @@
 /classes/
 /test-classes/
-/target
-/ScreenShots
-/extentReports
-/test-output
+/target/
+
+/ScreenShots/
+/extentReports/
+/test-output/
 *.out
 .out
 *.png

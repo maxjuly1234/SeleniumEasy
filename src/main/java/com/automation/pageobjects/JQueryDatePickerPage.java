@@ -17,6 +17,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 //import org.openqa.selenium.support.ui.Select;
@@ -53,6 +54,7 @@ public class JQueryDatePickerPage extends TestBase{
 	@FindBy(xpath="//table[@class='ui-datepicker-calendar']/tbody/tr/td")
 	List<WebElement> dates;
 	
+	
 	WebDriver driver;
 	
 	public JQueryDatePickerPage(WebDriver driver){
@@ -63,6 +65,10 @@ public class JQueryDatePickerPage extends TestBase{
 	}
 
 	public void NavigateToSeleniumEasyTest(){
+		
+		if (driver.getTitle().equals("Selenium Easy - JQuery Date picker demo"))
+			System.out.println("You are in JQuery Date Picker Page");
+		else
 		seleniumeasytest_link.click();
 	}
 	public void NavigateToDatePickers(){

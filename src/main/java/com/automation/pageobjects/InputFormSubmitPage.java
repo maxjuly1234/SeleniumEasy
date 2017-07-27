@@ -16,6 +16,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.FindAll;
 
 import com.automation.base.TestBase;
+import com.aventstack.extentreports.Status;
 
 /**
  * @author bbanduch
@@ -54,14 +55,33 @@ public class InputFormSubmitPage extends TestBase{
 	//@FindBy(how=How.CSS, using="div[class$='has-error']>div>small[data-bv-result='VALID']") WebElement allFieldsValidationErrorMessages_Valid;
 	
 	@FindBy(css="div[class$='has-error']>div>small[data-bv-result='INVALID']") public List<WebElement> allFieldsValidationErrorMessages_Invalid;
+	
+	
+ 
 	public void inputFormLaunch() 
 	{
-		demowebsite.click();
-		inputformlink.click();
-		inputFormSubmit.click();	
+		String pageName= driver.getTitle();
+		String mainPageTitle="Selenium Easy | Complete Automation Testing Tutorials";
+		String demoWebSiteTitle="Selenium Easy - Best Demo website to practice Selenium Webdriver Online";
+	   	 
+	   	 if(pageName.equals(mainPageTitle))
+	   	 {
+	   		demowebsite.click();
+		   	inputformlink.click();
+			inputFormSubmit.click();
+			test.log(Status.INFO,"you are in inputForm page");
+			}
+	   	 else if(pageName.equals(demoWebSiteTitle)){
+	   		inputformlink.click();
+			inputFormSubmit.click();
+			test.log(Status.INFO,"you are in inputForm page");
+	   		 
+	   	 }else test.log(Status.FAIL, "You are in Wrong Page");
+	   		 
+	   	
 	}
 
-	public AjaxFormSubmitPage enterInputFormDetails() throws Exception
+	public void enterInputFormDetails() throws Exception
 	{
 		String sheetName = "InputFormSubmit";
 		inputformlink.click();
@@ -92,7 +112,7 @@ public class InputFormSubmitPage extends TestBase{
 		
 		APP_LOGS.info("*****************InputFormSubmit Button is clicked*****************");
 		
-		return PageFactory.initElements(driver, AjaxFormSubmitPage.class);
+		//return PageFactory.initElements(driver, AjaxFormSubmitPage.class);
 		
 		
 	}

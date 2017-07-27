@@ -15,7 +15,7 @@ public class JavaScriptAlertPageTest extends JavascriptAlertDemoPage{
 	public static final Logger APP_LOGS=Logger.getLogger(JavaScriptAlertPageTest.class.getName());
 	
 
-  @Test
+  @Test(priority=1)
   public void verifyJavascriptAlertPage() throws InterruptedException {
 	  System.out.println();
 	  APP_LOGS.info("******************************JAVASCRIPT ALERT***************************************");
@@ -26,7 +26,7 @@ public class JavaScriptAlertPageTest extends JavascriptAlertDemoPage{
       APP_LOGS.info("==============================End of verifyJavaScriptAlertPage TestCase========================");
       System.out.println();
   }
-  @Test(priority=1)
+  @Test(priority=2)
   public static void getAlertMessage() throws InterruptedException
   {
 	  
@@ -41,7 +41,7 @@ public class JavaScriptAlertPageTest extends JavascriptAlertDemoPage{
 	 
 	  //MainClass.acceptAlert();
   }
-  @Test(priority=2)
+  @Test(priority=3)
   public static void acceptAlertMessage() throws InterruptedException
   {
 	  System.out.println();
@@ -64,4 +64,6 @@ public static void login() throws Throwable
 {
 		
 		TestBase.initialization();
-}*/}
+}*/
+  
+}
