@@ -24,7 +24,7 @@ public class AjaxFormSubmitPage extends TestBase{
 		super(driver);
 	}
 	@FindBy(how=How.XPATH, using="//*[@id='block-block-57']/div/div/a") WebElement demowebsite;
-	@FindBy(how=How.XPATH, using="//*[@id='treemenu']/li/ul/li[1]/a") WebElement inputformlinkAjax;	
+	@FindBy(how=How.XPATH, using="//*[@id='treemenu']/li/ul/li[1]/a") WebElement inputformlink;	
 	@FindBy(how=How.XPATH, using="//*[@id='treemenu']/li/ul/li[1]/ul/li[6]") WebElement ajaxFormSubmit;
 	@FindBy(how=How.XPATH, using="//*[@id='title' and @type='text']") WebElement name;	
 	@FindBy(how=How.XPATH, using="//input[@id='btn-submit' and @value='submit']") WebElement submitButton;
@@ -45,7 +45,7 @@ public class AjaxFormSubmitPage extends TestBase{
 	   	 if(pageName.equals(mainPageTitle))
 	   	 {
 	   		demowebsite.click();
-	   		inputformlinkAjax.click();
+	   		inputformlink.click();
 		   	ajaxFormSubmit.click();
 		   	
 		   	System.out.println("Control is in this page ---->>"+driver.getTitle());
@@ -54,7 +54,7 @@ public class AjaxFormSubmitPage extends TestBase{
 		   	
 			}
 	   	 else if(pageName.equals(demoWebSiteTitle)){
-	   		inputformlinkAjax.click();
+	   		inputformlink.click();
 	   		ajaxFormSubmit.click();
 	   		System.out.println("Control is in this page ---->>"+driver.getTitle());
 	   		test.log(Status.INFO,"you are in Ajax page");
