@@ -25,6 +25,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.automation.base.TestBase;
+import com.aventstack.extentreports.Status;
 
 public class JQueryDropDownPage extends TestBase{
 	
@@ -63,6 +64,7 @@ public class JQueryDropDownPage extends TestBase{
 
 	public void inputForm()
 	{
+		test.log(Status.INFO, "Input Form Link is clicked");
 		//System.out.println("click on InputFormlink");
 		inputformlink.click();
 		APP_LOGS.info("InputFormLInk is clicked");
@@ -72,19 +74,22 @@ public class JQueryDropDownPage extends TestBase{
 	//******** JQuery Select Dropdown functions ******** 
 	public void NavigateToJQuerySelectDropdown(){
 	
+	test.log(Status.INFO, "NavigateToJQuerySelectDropdown method started execution");
 	inputformlink.click();
 	
 	jqueryselectdropdown_link.click();
 		
 	APP_LOGS.info("You are in JQuery Select Dropdown Page");
+	test.log(Status.INFO, "NavigateToJQuerySelectDropdown method completed execution");
 }
 
 public void SearchAndSelectCountry(){
 	
+	test.log(Status.INFO, "SearchAndSelectCountry method started execution");
 	selectcountry.click();
 	searchcountry.sendKeys("hong");
 	choosecountry.click();
-	
+	test.log(Status.INFO, "SearchAndSelectCountry method Completed execution");
 }
 
 }

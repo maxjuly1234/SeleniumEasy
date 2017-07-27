@@ -27,6 +27,7 @@ public class JQueryDropDownTest extends TestBase{
 		
 	public static final Logger APP_LOGS=Logger.getLogger(JQueryDropDownTest.class.getName());
 	
+	String pageName = "JQueryDropDownPage";
 	JQueryDropDownPage mainjquerydropdown;
 	
 	@BeforeClass
@@ -36,6 +37,7 @@ public class JQueryDropDownTest extends TestBase{
 	mainjquerydropdown = PageFactory.initElements(driver, JQueryDropDownPage.class);
 	System.out.println("Objects are created");
 	mainjquerydropdown.NavigateToSeleniumEasyTest();
+	extentReport(pageName);
 	}
 	
 	// ******* Navigating to JQuery Select Drop down Page and validate you are in the correct page ******* //
@@ -203,5 +205,6 @@ public class JQueryDropDownTest extends TestBase{
 	@AfterClass
 	public void endTest(){
 		driver.quit();
+		rep.flush();
 	}
 }
