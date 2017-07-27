@@ -33,7 +33,7 @@ public class InputFormSubmitPageTest extends TestBase {
 	String pageName = "InputFormSubmit";
 	InputFormSubmitPage inputformSubmit;
 
-	@BeforeTest
+	@Test(priority=1)
 	public void inputFormSubmitLaunch() {
 		try {
 			//initialization();
@@ -53,7 +53,7 @@ public class InputFormSubmitPageTest extends TestBase {
 		}
 	}
 
-	@Test(priority=1)
+	@Test(priority=2)
 	public void validatingFieldsData() {
 		inputformSubmit.inputFormSubmitInValidValidations();
 	}
