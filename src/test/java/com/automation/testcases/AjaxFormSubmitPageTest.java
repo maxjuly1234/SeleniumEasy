@@ -27,9 +27,8 @@ public class AjaxFormSubmitPageTest extends TestBase {
 	@Test(priority = 1)
 	public void ajaxSubmitPageLaunch() {
 		try {
-			// initialization();
-			ajaxFormSbumit = PageFactory.initElements(driver,
-					AjaxFormSubmitPage.class);
+			 //initialization();
+			ajaxFormSbumit = PageFactory.initElements(driver,AjaxFormSubmitPage.class);
 			APP_LOGS.info("PageObject created");
 
 			extentReport(sheetName);

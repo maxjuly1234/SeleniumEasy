@@ -18,10 +18,10 @@ public class JQueryDatePickerPageTest extends TestBase {
 	JQueryDatePickerPage mainjquerydatepicker;
 	
 
-	@BeforeClass
+	@Test(priority=1)
 	public void before() throws Throwable
 	{
-		initialization();
+		//initialization();
 		mainjquerydatepicker = PageFactory.initElements(driver, JQueryDatePickerPage.class);
 		mainjquerydatepicker.NavigateToSeleniumEasyTest();
 		extentReport(pageName);
@@ -29,7 +29,7 @@ public class JQueryDatePickerPageTest extends TestBase {
 		
 	}
 	
-	@Test
+	@Test(priority=2)
 	public void verifyJQueryCalendar() {
 		
 		APP_LOGS.info("******************************************Start verifying verifyJQueryCalendar Test Case*********************************************");
@@ -43,7 +43,7 @@ public class JQueryDatePickerPageTest extends TestBase {
 		
 	}
 	
-	@Test
+	@Test(priority=3)
 	public void verifyDatesBeforeStartDateAreDisabled() throws InterruptedException {
 		APP_LOGS.info("******************************************Start verifying verifyDatesBeforeStartDateAreDisabled Test Case*********************************************");
 		
@@ -55,7 +55,7 @@ public class JQueryDatePickerPageTest extends TestBase {
 		
 	}
 	
-	@Test
+	@Test(priority=4)
 	public void verifyDatesAfterToDateAreDisabled() {
 		
 		APP_LOGS.info("******************************************Start verifying verifyDatesAfterToDateAreDisabled Test Case*********************************************");
@@ -72,7 +72,7 @@ public class JQueryDatePickerPageTest extends TestBase {
 	public void after()
 	{
 		rep.flush();
-		TestBase.destroy();
+		//TestBase.destroy();
 	}
 	
 	
