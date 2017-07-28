@@ -14,7 +14,7 @@ public class JQueryDatePickerPageTest extends TestBase {
 
 	public static final Logger APP_LOGS=Logger.getLogger(JQueryDatePickerPageTest.class.getName());
 	
-	String pageName = "MainJQueryDatePickerPage";
+	String pageName = "JQueryDatePickerPage";
 	JQueryDatePickerPage mainjquerydatepicker;
 	
 
@@ -22,9 +22,9 @@ public class JQueryDatePickerPageTest extends TestBase {
 	public void setUp() throws Throwable
 	{
 		//initialization();
+		extentReport(pageName);
 		mainjquerydatepicker = PageFactory.initElements(driver, JQueryDatePickerPage.class);
 		mainjquerydatepicker.NavigateToSeleniumEasyTest();
-		extentReport(pageName);
 		System.out.println("Page Object created");
 		
 	}
