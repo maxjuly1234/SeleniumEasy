@@ -7,7 +7,7 @@ import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
-import com.automation.base.TestBase;  
+import com.automation.base.TestBase;
 
 public class SimpleFormDemoPage extends TestBase 
 

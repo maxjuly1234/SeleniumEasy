@@ -7,7 +7,6 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import com.automation.base.TestBase;
-import com.automation.pageobjects.MainClass;
 import com.automation.pageobjects.JQueryDatePickerPage;
 
 public class JQueryDatePickerPageTest extends TestBase {

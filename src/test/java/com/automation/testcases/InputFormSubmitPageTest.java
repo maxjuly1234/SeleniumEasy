@@ -3,26 +3,18 @@
  */
 package com.automation.testcases;
 
-import org.apache.poi.ss.usermodel.Cell;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.automation.base.TestBase;
-import com.automation.pageobjects.AjaxFormSubmitPage;
 import com.automation.pageobjects.InputFormSubmitPage;
-
-import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
-import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
 /**
  * @author bbanduch

@@ -3,8 +3,6 @@ package com.automation.pageobjects;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.Select;
 
-import com.automation.pageobjects.MainClass;
-
 public class SingleSelectDropdownListDemoPage extends MainClass{
 	public static void verifySelectDropdownListPage()
 	{

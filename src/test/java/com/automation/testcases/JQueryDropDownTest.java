@@ -4,21 +4,18 @@ package com.automation.testcases;
 
 import java.util.List;
 
-import com.automation.base.TestBase;
-import com.automation.pageobjects.JQueryDropDownPage;
-
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
-import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+
+import com.automation.base.TestBase;
+import com.automation.pageobjects.JQueryDropDownPage;
 
 
 

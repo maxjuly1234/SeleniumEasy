@@ -1,13 +1,8 @@
 package com.automation.testcases;
 
 import org.apache.log4j.Logger;
-import org.openqa.selenium.WebDriver;
-import org.testng.Assert;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import com.automation.base.TestBase;
 //import com.automation.pageobjects.MainClass;
 import com.automation.pageobjects.TableDataSearchPage;
 

@@ -3,10 +3,7 @@ package com.automation.util;
 //http://relevantcodes.com/Tools/ExtentReports2/javadoc/index.html?com/relevantcodes/extentreports/ExtentReports.html
 
 
-import java.io.File;
 import java.util.Date;
-
-
 
 //import com.aventstack.extentreports.DisplayOrder;
 import com.aventstack.extentreports.ExtentReports;

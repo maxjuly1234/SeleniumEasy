@@ -2,7 +2,6 @@ package com.automation.testcases;
 
 import java.io.IOException;
 
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
@@ -11,9 +10,6 @@ import org.testng.annotations.Test;
 
 import com.automation.base.TestBase;
 import com.automation.pageobjects.AjaxFormSubmitPage;
-import com.automation.pageobjects.InputFormSubmitPage;
-import com.automation.util.ExtentManager_OLD;
-import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.MediaEntityBuilder;
 //import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.Status;
