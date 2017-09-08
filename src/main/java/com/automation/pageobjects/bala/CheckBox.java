@@ -18,12 +18,13 @@ public class CheckBox {
 	}
 	
 	
-	@FindBy(how=How.ID, using="isAgeSelected") WebElement boxtest;
+	// Common values for all pages
 	@FindBy(how=How.XPATH, using="//*[@id='block-block-57']/div/div/a") WebElement demowebsite;
-	@FindBy(how=How.XPATH, using="//*[@id='treemenu']/li/ul/li[1]/a") WebElement inputformlink;	
+	@FindBy(how=How.XPATH, using="//*[@id='treemenu']/li/ul/li[1]/a") WebElement inputformlink;
+	
 	@FindBy(how=How.XPATH, using="//*[@id='treemenu']/li/ul/li[1]/ul/li[2]/a") WebElement checkboxdemo;
 	@FindBy(how=How.XPATH, using="//*[@id='txtAge']") WebElement message;
-	
+	@FindBy(how=How.ID, using="isAgeSelected") WebElement boxtest;
 	//Multiple checkbox elements
 	
 	@FindBy(how=How.ID, using="check1") WebElement checkAllBtn;
