@@ -20,14 +20,14 @@
 <!-- Helps to run cross Browser execution -->
 <suite name="TestSuite" thread-count="2" parallel="tests">
 	<test name="ChromeTest">
-		<parameter name="browser" value="Chrome" />
+		<parameter name="browser" value="mozilla" />
 		<classes>
 			<class name="com.automation.testcases.bala.BasicRadioButtonsTest" />
 		</classes>
 	</test>
 
 	<!-- <test name="FirefoxTest">
-		<parameter name="browser" value="mozilla" />
+		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="com.automation.testcases.bala.CheckBoxTest" />
 		</classes>
